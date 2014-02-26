@@ -1,0 +1,43 @@
+{
+  "name": "ddc",
+  "version": "0.0.1",
+  "description": "A hackathon project for the Divvy Data Challenge 2014",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "~1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "karma-script-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.3",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.5",
+    "karma-coffee-preprocessor": "~0.1.3",
+    "requirejs": "~2.1.11",
+    "karma-requirejs": "~0.2.1",
+    "karma-phantomjs-launcher": "~0.1.2",
+    "karma": "~0.10.9"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hectron/divvy.git"
+  },
+  "keywords": [
+    "chicago",
+    "divvy",
+    "data",
+    "challenge",
+    "hackathon"
+  ],
+  "author": "Hector Rios",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/hectron/divvy/issues"
+  },
+  "homepage": "https://github.com/hectron/divvy"
+}
