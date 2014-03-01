@@ -35,13 +35,13 @@ try {
      */
 
     app.get('/', routes.index);
-    app.get('/partial/:name', routes.partial);
+    app.get('/partial/:name', routes.partials);
     app.get('/404', routes.pageNotFound);
     app.get('/403', routes.pageForbidden);
     app.get('/500', routes.internalServerErrorPage);
 
     http.createServer(app).listen(app.get('port'), app.get('ip'), function () {
-        console.log('Express server listening on http://' + app.get('ip') + ':' + app.get('port'));
+        console.log('Express server listening on http://' + app.get('ip') + ':' + app.get('port') + '/');
     });
 
 } catch (e) {

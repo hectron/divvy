@@ -4,7 +4,7 @@
  */
 
 exports.index = function(req, res, next) {
-    res.render('index', {});
+    res.render('index', { pageTitle: 'Index' });
 };
 
 exports.partials = function (req, res, next) {
