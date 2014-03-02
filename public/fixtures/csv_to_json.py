@@ -9,6 +9,7 @@ column_headers = [
     'trip_id', 'starttime', 'stoptime', 'bikeid', 'tripduration', 'from_station_id',
     'from_station_name', 'to_station_id', 'to_station_name', 'usertype', 'gender', 'birthday']
 
+column_headers = ['id','name','latitude','longitude','dpcapacity','landmark','online date']
 
 def convert(filename):
     ''' Converts the file from *.csv to *.json, 

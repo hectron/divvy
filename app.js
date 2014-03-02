@@ -2,17 +2,21 @@ try {
     var http = require('http'),
         express = require('express'),
         routes = require('./routes'),
+        api = require('./routes/api'),
         path = require('path');
 
     var app = module.exports = express();
 
+    var staticFilesPath = path.join(__dirname, 'public');
     /**
      * Basic Node configuration
      */
-    app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080);
+    app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 90);
     app.set('ip', process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1');
     app.set('views', path.join(__dirname, 'views'));
     app.set('view engine', 'jade');
+
+    app.set('application directory', staticFilesPath);
 
     /**
      * Express-specific configuration
@@ -21,7 +25,7 @@ try {
     app.use(express.json());
     app.use(express.urlencoded());
     app.use(express.methodOverride());
-    app.use(express.static(path.join(__dirname, 'public')));
+    app.use(express.static(staticFilesPath));
     app.use(app.router);
 
     if (app.get('env') === 'production') {
@@ -36,6 +40,7 @@ try {
 
     app.get('/', routes.index);
     app.get('/partial/:name', routes.partials);
+    app.get('/api/stations', api.getStations);
     app.get('/404', routes.pageNotFound);
     app.get('/403', routes.pageForbidden);
     app.get('/500', routes.internalServerErrorPage);
