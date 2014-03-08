@@ -1,0 +1,60 @@
+{
+   "title":"trip durations",
+   "description":"summary stats of duration by days of the week",
+   "Friday":{
+      "Min.":60,
+      "1st Qu.":447,
+      "Median":761,
+      "Mean":1161,
+      "3rd Qu.":1271,
+      "Max.":86130
+   },
+   "Monday":{
+      "Min.":60,
+      "1st Qu.":440,
+      "Median":748,
+      "Mean":1126,
+      "3rd Qu.":1257,
+      "Max.":86220
+   },
+   "Saturday":{
+      "Min.":60,
+      "1st Qu.":646,
+      "Median":1110,
+      "Mean":1585,
+      "3rd Qu.":1661,
+      "Max.":86390
+   },
+   "Sunday":{
+      "Min.":60,
+      "1st Qu.":643,
+      "Median":1109,
+      "Mean":1581,
+      "3rd Qu.":1658,
+      "Max.":86400
+   },
+   "Thursday":{
+      "Min.":60,
+      "1st Qu.":425,
+      "Median":703,
+      "Mean":1082,
+      "3rd Qu.":1168,
+      "Max.":86170
+   },
+   "Tuesday":{
+      "Min.":60,
+      "1st Qu.":417,
+      "Median":683,
+      "Mean":1007,
+      "3rd Qu.":1126,
+      "Max.":85260
+   },
+   "Wednesday":{
+      "Min.":60,
+      "1st Qu.":412,
+      "Median":672,
+      "Mean":1002,
+      "3rd Qu.":1109,
+      "Max.":85230
+   }
+}

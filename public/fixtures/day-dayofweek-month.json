@@ -1,0 +1,67 @@
+{
+    "title": "day stats",
+    "description": "summary stats of days by month",
+    "Friday": {
+        "August": 26764,
+        "December": 7422,
+        "July": 9176,
+        "June": 897,
+        "November": 17035,
+        "October": 26457,
+        "September": 27613
+    },
+    "Monday": {
+        "August": 18960,
+        "December": 7839,
+        "July": 10534,
+        "June": 0,
+        "November": 12572,
+        "October": 22883,
+        "September": 33120
+    },
+    "Saturday": {
+        "August": 36324,
+        "December": 4016,
+        "July": 13335,
+        "June": 1201,
+        "November": 13782,
+        "October": 23764,
+        "September": 37015
+    },
+    "Sunday": {
+        "August": 27287,
+        "December": 3576,
+        "July": 12580,
+        "June": 1812,
+        "November": 10274,
+        "October": 23487,
+        "September": 33440
+    },
+    "Thursday": {
+        "August": 22459,
+        "December": 7260,
+        "July": 9802,
+        "June": 95,
+        "November": 11448,
+        "October": 22249,
+        "September": 23558
+    },
+    "Tuesday": {
+        "August": 19667,
+        "December": 7354,
+        "July": 9750,
+        "June": 0,
+        "November": 13882,
+        "October": 27966,
+        "September": 24084
+    },
+    "Wednesday": {
+        "August": 19047,
+        "December": 7206,
+        "July": 9690,
+        "June": 0,
+        "November": 11017,
+        "October": 27889,
+        "September": 22200
+    }
+}

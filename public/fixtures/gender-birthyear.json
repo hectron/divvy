@@ -1,0 +1,30 @@
+{
+    "title": "gender stats",
+    "description": "summary stats of gender by birth year",
+    "nongender": {
+        "Min.": "NA",
+        "1st Qu.": "NA",
+        "Median": "NA",
+        "Mean": "NaN",
+        "3rd Qu.": "NA",
+        "Max.": "NA",
+        "NA's": 356742
+    },
+    "Female": {
+        "Min.": 1912,
+        "1st Qu.": 1973,
+        "Median": 1982,
+        "Mean": 1978,
+        "3rd Qu.": 1986,
+        "Max.": 1997
+    },
+    "Male": {
+        "Min.": 1906,
+        "1st Qu.": 1970,
+        "Median": 1979,
+        "Mean": 1976,
+        "3rd Qu.": 1985,
+        "Max.": 1997,
+        "NA's": 137
+    }
+}

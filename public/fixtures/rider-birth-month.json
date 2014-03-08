@@ -1,0 +1,616 @@
+{
+    "title": "rider stats",
+    "description": "summary stats of riders born on a specific year, riding at a given month",
+    "1906": {
+        "August": 2,
+        "December": 3,
+        "July": 0,
+        "June": 0,
+        "November": 17,
+        "October": 43,
+        "September": 64
+    },
+    "1912": {
+        "August": 5,
+        "December": 0,
+        "July": 2,
+        "June": 0,
+        "November": 0,
+        "October": 5,
+        "September": 3
+    },
+    "1915": {
+        "August": 0,
+        "December": 0,
+        "July": 0,
+        "June": 0,
+        "November": 0,
+        "October": 1,
+        "September": 0
+    },
+    "1920": {
+        "August": 0,
+        "December": 1,
+        "July": 0,
+        "June": 0,
+        "November": 14,
+        "October": 0,
+        "September": 0
+    },
+    "1930": {
+        "August": 0,
+        "December": 4,
+        "July": 0,
+        "June": 0,
+        "November": 3,
+        "October": 6,
+        "September": 0
+    },
+    "1931": {
+        "August": 0,
+        "December": 0,
+        "July": 0,
+        "June": 0,
+        "November": 0,
+        "October": 17,
+        "September": 30
+    },
+    "1935": {
+        "August": 0,
+        "December": 0,
+        "July": 0,
+        "June": 0,
+        "November": 0,
+        "October": 5,
+        "September": 6
+    },
+    "1936": {
+        "August": 0,
+        "December": 1,
+        "July": 0,
+        "June": 0,
+        "November": 1,
+        "October": 0,
+        "September": 2
+    },
+    "1938": {
+        "August": 72,
+        "December": 22,
+        "July": 31,
+        "June": 1,
+        "November": 34,
+        "October": 56,
+        "September": 101
+    },
+    "1939": {
+        "August": 10,
+        "December": 8,
+        "July": 5,
+        "June": 0,
+        "November": 11,
+        "October": 35,
+        "September": 43
+    },
+    "1940": {
+        "August": 0,
+        "December": 19,
+        "July": 0,
+        "June": 0,
+        "November": 22,
+        "October": 26,
+        "September": 15
+    },
+    "1941": {
+        "August": 26,
+        "December": 3,
+        "July": 0,
+        "June": 2,
+        "November": 13,
+        "October": 38,
+        "September": 41
+    },
+    "1942": {
+        "August": 6,
+        "December": 4,
+        "July": 4,
+        "June": 0,
+        "November": 6,
+        "October": 24,
+        "September": 3
+    },
+    "1943": {
+        "August": 16,
+        "December": 14,
+        "July": 7,
+        "June": 1,
+        "November": 49,
+        "October": 26,
+        "September": 30
+    },
+    "1944": {
+        "August": 20,
+        "December": 11,
+        "July": 2,
+        "June": 0,
+        "November": 71,
+        "October": 98,
+        "September": 86
+    },
+    "1945": {
+        "August": 45,
+        "December": 55,
+        "July": 2,
+        "June": 3,
+        "November": 54,
+        "October": 36,
+        "September": 53
+    },
+    "1946": {
+        "August": 77,
+        "December": 77,
+        "July": 12,
+        "June": 2,
+        "November": 143,
+        "October": 196,
+        "September": 90
+    },
+    "1947": {
+        "August": 58,
+        "December": 14,
+        "July": 39,
+        "June": 5,
+        "November": 134,
+        "October": 111,
+        "September": 137
+    },
+    "1948": {
+        "August": 133,
+        "December": 149,
+        "July": 50,
+        "June": 2,
+        "November": 130,
+        "October": 186,
+        "September": 188
+    },
+    "1949": {
+        "August": 211,
+        "December": 119,
+        "July": 151,
+        "June": 3,
+        "November": 232,
+        "October": 342,
+        "September": 297
+    },
+    "1950": {
+        "August": 27,
+        "December": 32,
+        "July": 19,
+        "June": 0,
+        "November": 106,
+        "October": 174,
+        "September": 145
+    },
+    "1951": {
+        "August": 234,
+        "December": 186,
+        "July": 119,
+        "June": 3,
+        "November": 353,
+        "October": 491,
+        "September": 431
+    },
+    "1952": {
+        "August": 173,
+        "December": 228,
+        "July": 84,
+        "June": 2,
+        "November": 360,
+        "October": 399,
+        "September": 334
+    },
+    "1953": {
+        "August": 370,
+        "December": 364,
+        "July": 176,
+        "June": 9,
+        "November": 559,
+        "October": 769,
+        "September": 633
+    },
+    "1954": {
+        "August": 689,
+        "December": 373,
+        "July": 345,
+        "June": 5,
+        "November": 573,
+        "October": 820,
+        "September": 747
+    },
+    "1955": {
+        "August": 468,
+        "December": 455,
+        "July": 94,
+        "June": 0,
+        "November": 614,
+        "October": 768,
+        "September": 597
+    },
+    "1956": {
+        "August": 266,
+        "December": 232,
+        "July": 141,
+        "June": 3,
+        "November": 407,
+        "October": 502,
+        "September": 417
+    },
+    "1957": {
+        "August": 607,
+        "December": 493,
+        "July": 170,
+        "June": 17,
+        "November": 710,
+        "October": 1101,
+        "September": 987
+    },
+    "1958": {
+        "August": 336,
+        "December": 394,
+        "July": 147,
+        "June": 0,
+        "November": 623,
+        "October": 932,
+        "September": 701
+    },
+    "1959": {
+        "August": 561,
+        "December": 490,
+        "July": 149,
+        "June": 3,
+        "November": 762,
+        "October": 959,
+        "September": 884
+    },
+    "1960": {
+        "August": 727,
+        "December": 651,
+        "July": 278,
+        "June": 9,
+        "November": 1055,
+        "October": 1490,
+        "September": 1236
+    },
+    "1961": {
+        "August": 719,
+        "December": 570,
+        "July": 210,
+        "June": 0,
+        "November": 1212,
+        "October": 1417,
+        "September": 1271
+    },
+    "1962": {
+        "August": 861,
+        "December": 662,
+        "July": 469,
+        "June": 7,
+        "November": 1080,
+        "October": 1456,
+        "September": 1234
+    },
+    "1963": {
+        "August": 773,
+        "December": 394,
+        "July": 366,
+        "June": 6,
+        "November": 765,
+        "October": 1237,
+        "September": 1239
+    },
+    "1964": {
+        "August": 1081,
+        "December": 816,
+        "July": 323,
+        "June": 15,
+        "November": 1459,
+        "October": 1829,
+        "September": 1551
+    },
+    "1965": {
+        "August": 900,
+        "December": 730,
+        "July": 349,
+        "June": 9,
+        "November": 1023,
+        "October": 1574,
+        "September": 1325
+    },
+    "1966": {
+        "August": 1199,
+        "December": 724,
+        "July": 494,
+        "June": 11,
+        "November": 1052,
+        "October": 1869,
+        "September": 1723
+    },
+    "1967": {
+        "August": 828,
+        "December": 699,
+        "July": 411,
+        "June": 10,
+        "November": 1029,
+        "October": 1545,
+        "September": 1399
+    },
+    "1968": {
+        "August": 1016,
+        "December": 723,
+        "July": 339,
+        "June": 32,
+        "November": 1267,
+        "October": 2082,
+        "September": 1659
+    },
+    "1969": {
+        "August": 1070,
+        "December": 796,
+        "July": 455,
+        "June": 14,
+        "November": 1246,
+        "October": 1893,
+        "September": 1646
+    },
+    "1970": {
+        "August": 1195,
+        "December": 991,
+        "July": 454,
+        "June": 14,
+        "November": 1720,
+        "October": 2497,
+        "September": 2028
+    },
+    "1971": {
+        "August": 961,
+        "December": 537,
+        "July": 387,
+        "June": 59,
+        "November": 1065,
+        "October": 1908,
+        "September": 1615
+    },
+    "1972": {
+        "August": 1228,
+        "December": 980,
+        "July": 525,
+        "June": 27,
+        "November": 1628,
+        "October": 2372,
+        "September": 1968
+    },
+    "1973": {
+        "August": 1628,
+        "December": 1095,
+        "July": 813,
+        "June": 28,
+        "November": 1706,
+        "October": 2655,
+        "September": 2360
+    },
+    "1974": {
+        "August": 1365,
+        "December": 1035,
+        "July": 602,
+        "June": 36,
+        "November": 1813,
+        "October": 2483,
+        "September": 2043
+    },
+    "1975": {
+        "August": 1415,
+        "December": 1093,
+        "July": 776,
+        "June": 14,
+        "November": 1887,
+        "October": 2827,
+        "September": 2390
+    },
+    "1976": {
+        "August": 1839,
+        "December": 1170,
+        "July": 778,
+        "June": 16,
+        "November": 2111,
+        "October": 3344,
+        "September": 2849
+    },
+    "1977": {
+        "August": 1927,
+        "December": 1331,
+        "July": 625,
+        "June": 26,
+        "November": 2141,
+        "October": 3236,
+        "September": 2882
+    },
+    "1978": {
+        "August": 1920,
+        "December": 1176,
+        "July": 829,
+        "June": 30,
+        "November": 1960,
+        "October": 3060,
+        "September": 2939
+    },
+    "1979": {
+        "August": 2447,
+        "December": 1530,
+        "July": 797,
+        "June": 18,
+        "November": 2946,
+        "October": 4356,
+        "September": 3900
+    },
+    "1980": {
+        "August": 2753,
+        "December": 1488,
+        "July": 1062,
+        "June": 27,
+        "November": 2658,
+        "October": 4157,
+        "September": 3888
+    },
+    "1981": {
+        "August": 2750,
+        "December": 1466,
+        "July": 908,
+        "June": 25,
+        "November": 2827,
+        "October": 4908,
+        "September": 4056
+    },
+    "1982": {
+        "August": 3313,
+        "December": 1757,
+        "July": 1346,
+        "June": 60,
+        "November": 3442,
+        "October": 5443,
+        "September": 4786
+    },
+    "1983": {
+        "August": 3120,
+        "December": 1969,
+        "July": 1333,
+        "June": 63,
+        "November": 3603,
+        "October": 5545,
+        "September": 4663
+    },
+    "1984": {
+        "August": 3242,
+        "December": 1865,
+        "July": 1227,
+        "June": 68,
+        "November": 3533,
+        "October": 5816,
+        "September": 5112
+    },
+    "1985": {
+        "August": 3414,
+        "December": 2007,
+        "July": 1350,
+        "June": 49,
+        "November": 3897,
+        "October": 6300,
+        "September": 5544
+    },
+    "1986": {
+        "August": 3429,
+        "December": 2042,
+        "July": 1155,
+        "June": 29,
+        "November": 3796,
+        "October": 5842,
+        "September": 5294
+    },
+    "1987": {
+        "August": 2689,
+        "December": 1849,
+        "July": 950,
+        "June": 46,
+        "November": 3300,
+        "October": 5540,
+        "September": 4567
+    },
+    "1988": {
+        "August": 2438,
+        "December": 1824,
+        "July": 906,
+        "June": 32,
+        "November": 3371,
+        "October": 5085,
+        "September": 4139
+    },
+    "1989": {
+        "August": 1547,
+        "December": 1010,
+        "July": 439,
+        "June": 5,
+        "November": 1944,
+        "October": 3312,
+        "September": 2813
+    },
+    "1990": {
+        "August": 1044,
+        "December": 580,
+        "July": 341,
+        "June": 11,
+        "November": 1553,
+        "October": 2588,
+        "September": 2113
+    },
+    "1991": {
+        "August": 580,
+        "December": 398,
+        "July": 179,
+        "June": 17,
+        "November": 832,
+        "October": 1227,
+        "September": 1123
+    },
+    "1992": {
+        "August": 217,
+        "December": 235,
+        "July": 16,
+        "June": 0,
+        "November": 430,
+        "October": 666,
+        "September": 579
+    },
+    "1993": {
+        "August": 65,
+        "December": 103,
+        "July": 2,
+        "June": 0,
+        "November": 211,
+        "October": 280,
+        "September": 248
+    },
+    "1994": {
+        "August": 116,
+        "December": 143,
+        "July": 0,
+        "June": 0,
+        "November": 195,
+        "October": 253,
+        "September": 193
+    },
+    "1995": {
+        "August": 77,
+        "December": 59,
+        "July": 63,
+        "June": 3,
+        "November": 115,
+        "October": 93,
+        "September": 105
+    },
+    "1996": {
+        "August": 26,
+        "December": 6,
+        "July": 0,
+        "June": 0,
+        "November": 19,
+        "October": 35,
+        "September": 17
+    },
+    "1997": {
+        "August": 33,
+        "December": 27,
+        "July": 15,
+        "June": 10,
+        "November": 43,
+        "October": 83,
+        "September": 89
+    }
+}

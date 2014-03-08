@@ -1,0 +1,1204 @@
+{
+    "title": "station stats",
+    "description": "summary stats of usertype per initial station",
+    "5": {
+        "Customer": 2532,
+        "Subscriber": 2498
+    },
+    "13": {
+        "Customer": 1512,
+        "Subscriber": 2193
+    },
+    "14": {
+        "Customer": 844,
+        "Subscriber": 677
+    },
+    "15": {
+        "Customer": 788,
+        "Subscriber": 901
+    },
+    "16": {
+        "Customer": 874,
+        "Subscriber": 863
+    },
+    "17": {
+        "Customer": 1312,
+        "Subscriber": 1438
+    },
+    "19": {
+        "Customer": 906,
+        "Subscriber": 939
+    },
+    "20": {
+        "Customer": 1086,
+        "Subscriber": 1661
+    },
+    "21": {
+        "Customer": 1070,
+        "Subscriber": 1704
+    },
+    "22": {
+        "Customer": 1233,
+        "Subscriber": 982
+    },
+    "23": {
+        "Customer": 888,
+        "Subscriber": 1119
+    },
+    "24": {
+        "Customer": 4091,
+        "Subscriber": 2779
+    },
+    "25": {
+        "Customer": 6328,
+        "Subscriber": 2159
+    },
+    "26": {
+        "Customer": 7459,
+        "Subscriber": 3388
+    },
+    "27": {
+        "Customer": 742,
+        "Subscriber": 678
+    },
+    "28": {
+        "Customer": 912,
+        "Subscriber": 1166
+    },
+    "29": {
+        "Customer": 1198,
+        "Subscriber": 1474
+    },
+    "30": {
+        "Customer": 780,
+        "Subscriber": 1302
+    },
+    "31": {
+        "Customer": 1714,
+        "Subscriber": 3486
+    },
+    "32": {
+        "Customer": 725,
+        "Subscriber": 1126
+    },
+    "33": {
+        "Customer": 2727,
+        "Subscriber": 3256
+    },
+    "34": {
+        "Customer": 5087,
+        "Subscriber": 1095
+    },
+    "35": {
+        "Customer": 15235,
+        "Subscriber": 1475
+    },
+    "36": {
+        "Customer": 3653,
+        "Subscriber": 6131
+    },
+    "37": {
+        "Customer": 2993,
+        "Subscriber": 5119
+    },
+    "42": {
+        "Customer": 1225,
+        "Subscriber": 590
+    },
+    "43": {
+        "Customer": 5209,
+        "Subscriber": 3420
+    },
+    "44": {
+        "Customer": 3214,
+        "Subscriber": 3665
+    },
+    "45": {
+        "Customer": 4678,
+        "Subscriber": 1796
+    },
+    "46": {
+        "Customer": 1429,
+        "Subscriber": 1859
+    },
+    "47": {
+        "Customer": 3799,
+        "Subscriber": 4131
+    },
+    "48": {
+        "Customer": 1468,
+        "Subscriber": 4886
+    },
+    "49": {
+        "Customer": 2003,
+        "Subscriber": 5986
+    },
+    "50": {
+        "Customer": 1207,
+        "Subscriber": 3848
+    },
+    "51": {
+        "Customer": 2265,
+        "Subscriber": 5015
+    },
+    "52": {
+        "Customer": 5657,
+        "Subscriber": 5103
+    },
+    "53": {
+        "Customer": 2450,
+        "Subscriber": 3468
+    },
+    "54": {
+        "Customer": 1045,
+        "Subscriber": 1516
+    },
+    "55": {
+        "Customer": 1045,
+        "Subscriber": 759
+    },
+    "56": {
+        "Customer": 1989,
+        "Subscriber": 3890
+    },
+    "57": {
+        "Customer": 1056,
+        "Subscriber": 1273
+    },
+    "58": {
+        "Customer": 940,
+        "Subscriber": 2812
+    },
+    "59": {
+        "Customer": 4710,
+        "Subscriber": 3349
+    },
+    "60": {
+        "Customer": 1735,
+        "Subscriber": 2319
+    },
+    "61": {
+        "Customer": 1170,
+        "Subscriber": 1434
+    },
+    "62": {
+        "Customer": 3335,
+        "Subscriber": 730
+    },
+    "66": {
+        "Customer": 1464,
+        "Subscriber": 4863
+    },
+    "67": {
+        "Customer": 2688,
+        "Subscriber": 3274
+    },
+    "68": {
+        "Customer": 665,
+        "Subscriber": 1584
+    },
+    "69": {
+        "Customer": 2491,
+        "Subscriber": 2910
+    },
+    "71": {
+        "Customer": 930,
+        "Subscriber": 2113
+    },
+    "72": {
+        "Customer": 1335,
+        "Subscriber": 1511
+    },
+    "73": {
+        "Customer": 1199,
+        "Subscriber": 3086
+    },
+    "74": {
+        "Customer": 1801,
+        "Subscriber": 4176
+    },
+    "75": {
+        "Customer": 2009,
+        "Subscriber": 8132
+    },
+    "76": {
+        "Customer": 13748,
+        "Subscriber": 1925
+    },
+    "77": {
+        "Customer": 1816,
+        "Subscriber": 6511
+    },
+    "80": {
+        "Customer": 1112,
+        "Subscriber": 3063
+    },
+    "81": {
+        "Customer": 2669,
+        "Subscriber": 6141
+    },
+    "84": {
+        "Customer": 653,
+        "Subscriber": 1585
+    },
+    "85": {
+        "Customer": 10333,
+        "Subscriber": 2941
+    },
+    "86": {
+        "Customer": 729,
+        "Subscriber": 1200
+    },
+    "87": {
+        "Customer": 1150,
+        "Subscriber": 1348
+    },
+    "88": {
+        "Customer": 833,
+        "Subscriber": 2220
+    },
+    "90": {
+        "Customer": 14034,
+        "Subscriber": 3238
+    },
+    "91": {
+        "Customer": 2021,
+        "Subscriber": 12946
+    },
+    "92": {
+        "Customer": 477,
+        "Subscriber": 1075
+    },
+    "93": {
+        "Customer": 1083,
+        "Subscriber": 1592
+    },
+    "94": {
+        "Customer": 3567,
+        "Subscriber": 2526
+    },
+    "97": {
+        "Customer": 10983,
+        "Subscriber": 1693
+    },
+    "98": {
+        "Customer": 889,
+        "Subscriber": 4237
+    },
+    "99": {
+        "Customer": 5072,
+        "Subscriber": 1835
+    },
+    "100": {
+        "Customer": 1447,
+        "Subscriber": 4687
+    },
+    "106": {
+        "Customer": 1168,
+        "Subscriber": 1223
+    },
+    "108": {
+        "Customer": 557,
+        "Subscriber": 1527
+    },
+    "109": {
+        "Customer": 502,
+        "Subscriber": 1114
+    },
+    "110": {
+        "Customer": 2468,
+        "Subscriber": 3761
+    },
+    "111": {
+        "Customer": 533,
+        "Subscriber": 1742
+    },
+    "112": {
+        "Customer": 1010,
+        "Subscriber": 1717
+    },
+    "113": {
+        "Customer": 470,
+        "Subscriber": 1128
+    },
+    "114": {
+        "Customer": 1714,
+        "Subscriber": 1501
+    },
+    "115": {
+        "Customer": 1608,
+        "Subscriber": 1832
+    },
+    "116": {
+        "Customer": 432,
+        "Subscriber": 720
+    },
+    "117": {
+        "Customer": 854,
+        "Subscriber": 1797
+    },
+    "118": {
+        "Customer": 1465,
+        "Subscriber": 1590
+    },
+    "119": {
+        "Customer": 370,
+        "Subscriber": 507
+    },
+    "120": {
+        "Customer": 810,
+        "Subscriber": 492
+    },
+    "121": {
+        "Customer": 447,
+        "Subscriber": 409
+    },
+    "122": {
+        "Customer": 274,
+        "Subscriber": 688
+    },
+    "123": {
+        "Customer": 1332,
+        "Subscriber": 1398
+    },
+    "124": {
+        "Customer": 168,
+        "Subscriber": 199
+    },
+    "126": {
+        "Customer": 4695,
+        "Subscriber": 1992
+    },
+    "127": {
+        "Customer": 122,
+        "Subscriber": 229
+    },
+    "128": {
+        "Customer": 1069,
+        "Subscriber": 1476
+    },
+    "129": {
+        "Customer": 445,
+        "Subscriber": 717
+    },
+    "130": {
+        "Customer": 1330,
+        "Subscriber": 1857
+    },
+    "131": {
+        "Customer": 205,
+        "Subscriber": 385
+    },
+    "132": {
+        "Customer": 99,
+        "Subscriber": 58
+    },
+    "134": {
+        "Customer": 892,
+        "Subscriber": 2909
+    },
+    "135": {
+        "Customer": 288,
+        "Subscriber": 230
+    },
+    "136": {
+        "Customer": 66,
+        "Subscriber": 198
+    },
+    "137": {
+        "Customer": 399,
+        "Subscriber": 1138
+    },
+    "138": {
+        "Customer": 468,
+        "Subscriber": 925
+    },
+    "140": {
+        "Customer": 2130,
+        "Subscriber": 2823
+    },
+    "141": {
+        "Customer": 2901,
+        "Subscriber": 1963
+    },
+    "143": {
+        "Customer": 2269,
+        "Subscriber": 1667
+    },
+    "144": {
+        "Customer": 1742,
+        "Subscriber": 1482
+    },
+    "146": {
+        "Customer": 262,
+        "Subscriber": 723
+    },
+    "147": {
+        "Customer": 565,
+        "Subscriber": 168
+    },
+    "148": {
+        "Customer": 252,
+        "Subscriber": 332
+    },
+    "149": {
+        "Customer": 466,
+        "Subscriber": 298
+    },
+    "150": {
+        "Customer": 2858,
+        "Subscriber": 606
+    },
+    "152": {
+        "Customer": 761,
+        "Subscriber": 1413
+    },
+    "153": {
+        "Customer": 1204,
+        "Subscriber": 1993
+    },
+    "154": {
+        "Customer": 991,
+        "Subscriber": 835
+    },
+    "156": {
+        "Customer": 1321,
+        "Subscriber": 1759
+    },
+    "157": {
+        "Customer": 2940,
+        "Subscriber": 1407
+    },
+    "158": {
+        "Customer": 768,
+        "Subscriber": 788
+    },
+    "159": {
+        "Customer": 181,
+        "Subscriber": 434
+    },
+    "160": {
+        "Customer": 423,
+        "Subscriber": 283
+    },
+    "162": {
+        "Customer": 535,
+        "Subscriber": 705
+    },
+    "163": {
+        "Customer": 311,
+        "Subscriber": 451
+    },
+    "164": {
+        "Customer": 1191,
+        "Subscriber": 3614
+    },
+    "165": {
+        "Customer": 1605,
+        "Subscriber": 887
+    },
+    "166": {
+        "Customer": 531,
+        "Subscriber": 574
+    },
+    "167": {
+        "Customer": 62,
+        "Subscriber": 38
+    },
+    "168": {
+        "Customer": 1406,
+        "Subscriber": 1469
+    },
+    "169": {
+        "Customer": 485,
+        "Subscriber": 948
+    },
+    "170": {
+        "Customer": 267,
+        "Subscriber": 451
+    },
+    "171": {
+        "Customer": 106,
+        "Subscriber": 100
+    },
+    "173": {
+        "Customer": 2913,
+        "Subscriber": 2362
+    },
+    "174": {
+        "Customer": 1430,
+        "Subscriber": 6598
+    },
+    "175": {
+        "Customer": 703,
+        "Subscriber": 1762
+    },
+    "176": {
+        "Customer": 2611,
+        "Subscriber": 3235
+    },
+    "177": {
+        "Customer": 7065,
+        "Subscriber": 2017
+    },
+    "178": {
+        "Customer": 691,
+        "Subscriber": 599
+    },
+    "179": {
+        "Customer": 341,
+        "Subscriber": 392
+    },
+    "181": {
+        "Customer": 2241,
+        "Subscriber": 4165
+    },
+    "183": {
+        "Customer": 842,
+        "Subscriber": 1270
+    },
+    "184": {
+        "Customer": 449,
+        "Subscriber": 291
+    },
+    "185": {
+        "Customer": 351,
+        "Subscriber": 404
+    },
+    "186": {
+        "Customer": 489,
+        "Subscriber": 1091
+    },
+    "188": {
+        "Customer": 600,
+        "Subscriber": 771
+    },
+    "190": {
+        "Customer": 746,
+        "Subscriber": 1241
+    },
+    "191": {
+        "Customer": 826,
+        "Subscriber": 3364
+    },
+    "192": {
+        "Customer": 1219,
+        "Subscriber": 5216
+    },
+    "193": {
+        "Customer": 115,
+        "Subscriber": 34
+    },
+    "194": {
+        "Customer": 2078,
+        "Subscriber": 1711
+    },
+    "195": {
+        "Customer": 2295,
+        "Subscriber": 3893
+    },
+    "196": {
+        "Customer": 1447,
+        "Subscriber": 1811
+    },
+    "197": {
+        "Customer": 1513,
+        "Subscriber": 1751
+    },
+    "198": {
+        "Customer": 979,
+        "Subscriber": 1870
+    },
+    "199": {
+        "Customer": 2990,
+        "Subscriber": 2868
+    },
+    "200": {
+        "Customer": 162,
+        "Subscriber": 54
+    },
+    "201": {
+        "Customer": 84,
+        "Subscriber": 38
+    },
+    "202": {
+        "Customer": 284,
+        "Subscriber": 442
+    },
+    "203": {
+        "Customer": 120,
+        "Subscriber": 98
+    },
+    "204": {
+        "Customer": 118,
+        "Subscriber": 121
+    },
+    "205": {
+        "Customer": 183,
+        "Subscriber": 436
+    },
+    "206": {
+        "Customer": 256,
+        "Subscriber": 438
+    },
+    "207": {
+        "Customer": 155,
+        "Subscriber": 261
+    },
+    "208": {
+        "Customer": 67,
+        "Subscriber": 76
+    },
+    "209": {
+        "Customer": 111,
+        "Subscriber": 314
+    },
+    "210": {
+        "Customer": 1017,
+        "Subscriber": 1754
+    },
+    "211": {
+        "Customer": 1931,
+        "Subscriber": 2545
+    },
+    "212": {
+        "Customer": 951,
+        "Subscriber": 1808
+    },
+    "213": {
+        "Customer": 331,
+        "Subscriber": 416
+    },
+    "214": {
+        "Customer": 436,
+        "Subscriber": 880
+    },
+    "215": {
+        "Customer": 383,
+        "Subscriber": 257
+    },
+    "216": {
+        "Customer": 494,
+        "Subscriber": 486
+    },
+    "217": {
+        "Customer": 259,
+        "Subscriber": 1150
+    },
+    "218": {
+        "Customer": 251,
+        "Subscriber": 109
+    },
+    "219": {
+        "Customer": 814,
+        "Subscriber": 856
+    },
+    "220": {
+        "Customer": 2099,
+        "Subscriber": 2255
+    },
+    "222": {
+        "Customer": 246,
+        "Subscriber": 257
+    },
+    "223": {
+        "Customer": 716,
+        "Subscriber": 986
+    },
+    "224": {
+        "Customer": 444,
+        "Subscriber": 838
+    },
+    "225": {
+        "Customer": 703,
+        "Subscriber": 933
+    },
+    "226": {
+        "Customer": 664,
+        "Subscriber": 679
+    },
+    "227": {
+        "Customer": 816,
+        "Subscriber": 1195
+    },
+    "228": {
+        "Customer": 400,
+        "Subscriber": 492
+    },
+    "229": {
+        "Customer": 850,
+        "Subscriber": 1076
+    },
+    "230": {
+        "Customer": 714,
+        "Subscriber": 947
+    },
+    "231": {
+        "Customer": 1075,
+        "Subscriber": 749
+    },
+    "232": {
+        "Customer": 1577,
+        "Subscriber": 1167
+    },
+    "233": {
+        "Customer": 545,
+        "Subscriber": 1252
+    },
+    "234": {
+        "Customer": 415,
+        "Subscriber": 499
+    },
+    "236": {
+        "Customer": 269,
+        "Subscriber": 307
+    },
+    "237": {
+        "Customer": 454,
+        "Subscriber": 211
+    },
+    "238": {
+        "Customer": 310,
+        "Subscriber": 522
+    },
+    "239": {
+        "Customer": 403,
+        "Subscriber": 567
+    },
+    "240": {
+        "Customer": 881,
+        "Subscriber": 1508
+    },
+    "241": {
+        "Customer": 311,
+        "Subscriber": 1438
+    },
+    "242": {
+        "Customer": 439,
+        "Subscriber": 631
+    },
+    "243": {
+        "Customer": 398,
+        "Subscriber": 606
+    },
+    "244": {
+        "Customer": 359,
+        "Subscriber": 648
+    },
+    "245": {
+        "Customer": 415,
+        "Subscriber": 635
+    },
+    "246": {
+        "Customer": 198,
+        "Subscriber": 338
+    },
+    "247": {
+        "Customer": 848,
+        "Subscriber": 279
+    },
+    "248": {
+        "Customer": 416,
+        "Subscriber": 430
+    },
+    "249": {
+        "Customer": 1765,
+        "Subscriber": 699
+    },
+    "250": {
+        "Customer": 906,
+        "Subscriber": 446
+    },
+    "251": {
+        "Customer": 669,
+        "Subscriber": 314
+    },
+    "252": {
+        "Customer": 386,
+        "Subscriber": 435
+    },
+    "253": {
+        "Customer": 232,
+        "Subscriber": 232
+    },
+    "254": {
+        "Customer": 496,
+        "Subscriber": 896
+    },
+    "255": {
+        "Customer": 2203,
+        "Subscriber": 1701
+    },
+    "256": {
+        "Customer": 423,
+        "Subscriber": 383
+    },
+    "257": {
+        "Customer": 220,
+        "Subscriber": 490
+    },
+    "258": {
+        "Customer": 267,
+        "Subscriber": 378
+    },
+    "259": {
+        "Customer": 170,
+        "Subscriber": 357
+    },
+    "260": {
+        "Customer": 345,
+        "Subscriber": 589
+    },
+    "261": {
+        "Customer": 164,
+        "Subscriber": 788
+    },
+    "262": {
+        "Customer": 73,
+        "Subscriber": 27
+    },
+    "263": {
+        "Customer": 122,
+        "Subscriber": 140
+    },
+    "264": {
+        "Customer": 628,
+        "Subscriber": 1141
+    },
+    "265": {
+        "Customer": 141,
+        "Subscriber": 51
+    },
+    "267": {
+        "Customer": 221,
+        "Subscriber": 74
+    },
+    "268": {
+        "Customer": 2225,
+        "Subscriber": 759
+    },
+    "271": {
+        "Customer": 42,
+        "Subscriber": 20
+    },
+    "272": {
+        "Customer": 89,
+        "Subscriber": 160
+    },
+    "273": {
+        "Customer": 622,
+        "Subscriber": 924
+    },
+    "274": {
+        "Customer": 76,
+        "Subscriber": 330
+    },
+    "275": {
+        "Customer": 56,
+        "Subscriber": 116
+    },
+    "276": {
+        "Customer": 169,
+        "Subscriber": 407
+    },
+    "277": {
+        "Customer": 191,
+        "Subscriber": 292
+    },
+    "278": {
+        "Customer": 77,
+        "Subscriber": 56
+    },
+    "279": {
+        "Customer": 756,
+        "Subscriber": 245
+    },
+    "280": {
+        "Customer": 132,
+        "Subscriber": 126
+    },
+    "281": {
+        "Customer": 26,
+        "Subscriber": 12
+    },
+    "282": {
+        "Customer": 226,
+        "Subscriber": 432
+    },
+    "283": {
+        "Customer": 643,
+        "Subscriber": 3483
+    },
+    "284": {
+        "Customer": 1720,
+        "Subscriber": 1248
+    },
+    "285": {
+        "Customer": 199,
+        "Subscriber": 368
+    },
+    "286": {
+        "Customer": 403,
+        "Subscriber": 1783
+    },
+    "287": {
+        "Customer": 639,
+        "Subscriber": 3403
+    },
+    "288": {
+        "Customer": 267,
+        "Subscriber": 528
+    },
+    "289": {
+        "Customer": 882,
+        "Subscriber": 1780
+    },
+    "290": {
+        "Customer": 121,
+        "Subscriber": 329
+    },
+    "291": {
+        "Customer": 735,
+        "Subscriber": 923
+    },
+    "292": {
+        "Customer": 107,
+        "Subscriber": 249
+    },
+    "293": {
+        "Customer": 136,
+        "Subscriber": 360
+    },
+    "294": {
+        "Customer": 362,
+        "Subscriber": 293
+    },
+    "295": {
+        "Customer": 226,
+        "Subscriber": 222
+    },
+    "296": {
+        "Customer": 340,
+        "Subscriber": 600
+    },
+    "297": {
+        "Customer": 89,
+        "Subscriber": 240
+    },
+    "298": {
+        "Customer": 131,
+        "Subscriber": 283
+    },
+    "299": {
+        "Customer": 254,
+        "Subscriber": 638
+    },
+    "300": {
+        "Customer": 593,
+        "Subscriber": 1004
+    },
+    "301": {
+        "Customer": 573,
+        "Subscriber": 1192
+    },
+    "302": {
+        "Customer": 387,
+        "Subscriber": 660
+    },
+    "303": {
+        "Customer": 508,
+        "Subscriber": 632
+    },
+    "304": {
+        "Customer": 383,
+        "Subscriber": 1019
+    },
+    "305": {
+        "Customer": 213,
+        "Subscriber": 369
+    },
+    "306": {
+        "Customer": 248,
+        "Subscriber": 412
+    },
+    "307": {
+        "Customer": 250,
+        "Subscriber": 493
+    },
+    "308": {
+        "Customer": 135,
+        "Subscriber": 299
+    },
+    "309": {
+        "Customer": 192,
+        "Subscriber": 313
+    },
+    "310": {
+        "Customer": 227,
+        "Subscriber": 382
+    },
+    "311": {
+        "Customer": 475,
+        "Subscriber": 421
+    },
+    "312": {
+        "Customer": 104,
+        "Subscriber": 114
+    },
+    "313": {
+        "Customer": 977,
+        "Subscriber": 994
+    },
+    "314": {
+        "Customer": 93,
+        "Subscriber": 354
+    },
+    "315": {
+        "Customer": 68,
+        "Subscriber": 231
+    },
+    "316": {
+        "Customer": 83,
+        "Subscriber": 193
+    },
+    "317": {
+        "Customer": 77,
+        "Subscriber": 413
+    },
+    "318": {
+        "Customer": 218,
+        "Subscriber": 507
+    },
+    "319": {
+        "Customer": 264,
+        "Subscriber": 279
+    },
+    "320": {
+        "Customer": 150,
+        "Subscriber": 477
+    },
+    "321": {
+        "Customer": 701,
+        "Subscriber": 1187
+    },
+    "322": {
+        "Customer": 239,
+        "Subscriber": 276
+    },
+    "323": {
+        "Customer": 183,
+        "Subscriber": 150
+    },
+    "324": {
+        "Customer": 304,
+        "Subscriber": 430
+    },
+    "325": {
+        "Customer": 281,
+        "Subscriber": 522
+    },
+    "326": {
+        "Customer": 103,
+        "Subscriber": 385
+    },
+    "327": {
+        "Customer": 324,
+        "Subscriber": 719
+    },
+    "328": {
+        "Customer": 745,
+        "Subscriber": 506
+    },
+    "329": {
+        "Customer": 387,
+        "Subscriber": 469
+    },
+    "330": {
+        "Customer": 134,
+        "Subscriber": 265
+    },
+    "331": {
+        "Customer": 210,
+        "Subscriber": 548
+    },
+    "332": {
+        "Customer": 320,
+        "Subscriber": 667
+    },
+    "333": {
+        "Customer": 144,
+        "Subscriber": 348
+    },
+    "334": {
+        "Customer": 641,
+        "Subscriber": 544
+    },
+    "335": {
+        "Customer": 8,
+        "Subscriber": 25
+    },
+    "336": {
+        "Customer": 19,
+        "Subscriber": 17
+    },
+    "337": {
+        "Customer": 430,
+        "Subscriber": 615
+    },
+    "338": {
+        "Customer": 656,
+        "Subscriber": 676
+    },
+    "339": {
+        "Customer": 45,
+        "Subscriber": 211
+    },
+    "340": {
+        "Customer": 244,
+        "Subscriber": 534
+    },
+    "341": {
+        "Customer": 1016,
+        "Subscriber": 165
+    },
+    "342": {
+        "Customer": 48,
+        "Subscriber": 433
+    },
+    "343": {
+        "Customer": 33,
+        "Subscriber": 196
+    },
+    "344": {
+        "Customer": 76,
+        "Subscriber": 532
+    },
+    "345": {
+        "Customer": 87,
+        "Subscriber": 177
+    },
+    "346": {
+        "Customer": 72,
+        "Subscriber": 485
+    },
+    "347": {
+        "Customer": 61,
+        "Subscriber": 183
+    },
+    "348": {
+        "Customer": 220,
+        "Subscriber": 61
+    },
+    "349": {
+        "Customer": 150,
+        "Subscriber": 298
+    },
+    "350": {
+        "Customer": 537,
+        "Subscriber": 498
+    },
+    "351": {
+        "Customer": 129,
+        "Subscriber": 166
+    }
+}

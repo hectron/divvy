@@ -1,0 +1,21 @@
+{
+
+    "title": "trip durations",
+    "description": "summary stats of duration by usertype",
+    "Customer": {
+        "Min.": 60,
+        "1st Qu.": 801,
+        "Median": 1257,
+        "Mean": 1824,
+        "3rd Qu.": 1797,
+        "Max.": 86400
+    },
+    "Subscriber": {
+        "Min.": 60,
+        "1st Qu.": 362,
+        "Median": 566,
+        "Mean": 722,
+        "3rd Qu.": 885,
+        "Max.": 85850
+    }
+}

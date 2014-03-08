@@ -1,0 +1,100 @@
+[{
+    "title": "general stats",
+    "description": "summary stats of five least popular destination stations",
+    "low to": {
+        "336": 30,
+        "335": 33,
+        "281": 51,
+        "271": 58,
+        "262": 94
+    }
+}, {
+    "title": "general stats",
+    "description": "summary stats of five most popular destination stations",
+    "top to": {
+        "35": 18544,
+        "90": 18395,
+        "76": 15457,
+        "85": 14342,
+        "91": 13898
+    }
+}, {
+    "title": "general stats",
+    "description": "summary stats of five least popular initial stations",
+    "low from": {
+        "335": 33,
+        "336": 36,
+        "281": 38,
+        "271": 62,
+        "167": 100
+    }
+}, {
+    "title": "general stats",
+    "description": "summary stats of five most popular initial stations",
+    "top from": {
+        "90": 17272,
+        "35": 16710,
+        "76": 15673,
+        "91": 14967,
+        "85": 13274
+    }
+}, {
+    "title": "general stats",
+    "description": "summary stats of riders per day",
+    "Friday": 115364,
+    "Monday": 105908,
+    "Saturday": 129437,
+    "Sunday": 112456,
+    "Thursday": 96871,
+    "Tuesday": 102703,
+    "Wednesday": 97049
+}, {
+    "title": "general stats",
+    "description": "summary stats of riders per month",
+    "August": 170508,
+    "December": 44673,
+    "July": 74867,
+    "June": 4005,
+    "November": 90010,
+    "October": 174695,
+    "September": 201030
+}, {
+    "title": "general stats",
+    "description": "summary stats of trip durations (in seconds)",
+    "Min.": 60,
+    "1st Qu.": 473,
+    "Median": 821.5,
+    "Mean": 1239,
+    "3rd Qu.": 1357,
+    "Max.": 86400
+}, {
+    "title": "general stats",
+    "description": "summary stats of riders by usertype",
+    "Customer": 356752,
+    "Subscriber": 403036
+}, {
+    "title": "general stats",
+    "description": "summary stats of riders by gender",
+    "nongender": 356742,
+    "Female": 84450,
+    "Male": 318596
+}, {
+    "title": "general stats",
+    "description": "summary stats of rider's birthdates",
+    "Min.": 1906,
+    "1st Qu.": 1970,
+    "Median": 1980,
+    "Mean": 1977,
+    "3rd Qu.": 1985,
+    "Max.": 1997,
+    "NA's": 356879
+}, {
+    "title": "general stats",
+    "description": "summary stats of station rider capacity",
+    "Min.": 11,
+    "1st Qu.": 15,
+    "Median": 15,
+    "Mean": 16.8,
+    "3rd Qu.": 19,
+    "Max.": 47
+}]

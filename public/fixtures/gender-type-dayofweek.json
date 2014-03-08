@@ -1,0 +1,31 @@
+{
+    "title": "gender stats",
+    "description": "summary stats of gender by day",
+    "nongender": {
+        "Friday": 47722,
+        "Monday": 41868,
+        "Saturday": 90569,
+        "Sunday": 79953,
+        "Thursday": 33599,
+        "Tuesday": 32809,
+        "Wednesday": 30222
+    },
+    "Female": {
+        "Friday": 13239,
+        "Monday": 12701,
+        "Saturday": 10385,
+        "Sunday": 8837,
+        "Thursday": 12232,
+        "Tuesday": 13921,
+        "Wednesday": 13135
+    },
+    "Male": {
+        "Friday": 54403,
+        "Monday": 51339,
+        "Saturday": 28483,
+        "Sunday": 23666,
+        "Thursday": 51040,
+        "Tuesday": 55973,
+        "Wednesday": 53692
+    }
+}

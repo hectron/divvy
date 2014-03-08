@@ -1,0 +1,16 @@
+{
+    "title": "user stats",
+    "description": "summary stats of user by gender",
+    "nongender": {
+        "Customer": 356725,
+        "Subscriber": 17
+    },
+    "Female": {
+        "Customer": 2,
+        "Subscriber": 84448
+    },
+    "Male": {
+        "Customer": 25,
+        "Subscriber": 318571
+    }
+}

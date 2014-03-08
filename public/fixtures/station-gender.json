@@ -1,0 +1,1504 @@
+{
+    "title": "station stats",
+    "description": "summary stats of gender of riders for a specific station",
+    "5": {
+        "nongender": 2574,
+        "Female": 489,
+        "Male": 2053
+    },
+    "13": {
+        "nongender": 1974,
+        "Female": 522,
+        "Male": 1795
+    },
+    "14": {
+        "nongender": 788,
+        "Female": 208,
+        "Male": 452
+    },
+    "15": {
+        "nongender": 797,
+        "Female": 269,
+        "Male": 586
+    },
+    "16": {
+        "nongender": 738,
+        "Female": 291,
+        "Male": 598
+    },
+    "17": {
+        "nongender": 1328,
+        "Female": 445,
+        "Male": 1121
+    },
+    "19": {
+        "nongender": 936,
+        "Female": 307,
+        "Male": 659
+    },
+    "20": {
+        "nongender": 1054,
+        "Female": 567,
+        "Male": 1406
+    },
+    "21": {
+        "nongender": 874,
+        "Female": 403,
+        "Male": 1297
+    },
+    "22": {
+        "nongender": 1213,
+        "Female": 157,
+        "Male": 926
+    },
+    "23": {
+        "nongender": 909,
+        "Female": 279,
+        "Male": 834
+    },
+    "24": {
+        "nongender": 4334,
+        "Female": 466,
+        "Male": 2185
+    },
+    "25": {
+        "nongender": 6272,
+        "Female": 597,
+        "Male": 1763
+    },
+    "26": {
+        "nongender": 7728,
+        "Female": 865,
+        "Male": 2935
+    },
+    "27": {
+        "nongender": 714,
+        "Female": 218,
+        "Male": 553
+    },
+    "28": {
+        "nongender": 877,
+        "Female": 263,
+        "Male": 960
+    },
+    "29": {
+        "nongender": 1136,
+        "Female": 321,
+        "Male": 1316
+    },
+    "30": {
+        "nongender": 696,
+        "Female": 500,
+        "Male": 844
+    },
+    "31": {
+        "nongender": 1528,
+        "Female": 782,
+        "Male": 2766
+    },
+    "32": {
+        "nongender": 583,
+        "Female": 141,
+        "Male": 886
+    },
+    "33": {
+        "nongender": 2687,
+        "Female": 553,
+        "Male": 2583
+    },
+    "34": {
+        "nongender": 5310,
+        "Female": 429,
+        "Male": 854
+    },
+    "35": {
+        "nongender": 16961,
+        "Female": 379,
+        "Male": 1204
+    },
+    "36": {
+        "nongender": 3569,
+        "Female": 750,
+        "Male": 4870
+    },
+    "37": {
+        "nongender": 2601,
+        "Female": 662,
+        "Male": 3951
+    },
+    "42": {
+        "nongender": 1208,
+        "Female": 93,
+        "Male": 510
+    },
+    "43": {
+        "nongender": 4148,
+        "Female": 668,
+        "Male": 3286
+    },
+    "44": {
+        "nongender": 2908,
+        "Female": 798,
+        "Male": 2592
+    },
+    "45": {
+        "nongender": 4939,
+        "Female": 383,
+        "Male": 1103
+    },
+    "46": {
+        "nongender": 1352,
+        "Female": 408,
+        "Male": 1174
+    },
+    "47": {
+        "nongender": 3910,
+        "Female": 849,
+        "Male": 3812
+    },
+    "48": {
+        "nongender": 1425,
+        "Female": 878,
+        "Male": 4140
+    },
+    "49": {
+        "nongender": 1631,
+        "Female": 780,
+        "Male": 4821
+    },
+    "50": {
+        "nongender": 1097,
+        "Female": 593,
+        "Male": 3188
+    },
+    "51": {
+        "nongender": 1912,
+        "Female": 714,
+        "Male": 4383
+    },
+    "52": {
+        "nongender": 5170,
+        "Female": 932,
+        "Male": 4361
+    },
+    "53": {
+        "nongender": 2329,
+        "Female": 555,
+        "Male": 2720
+    },
+    "54": {
+        "nongender": 977,
+        "Female": 431,
+        "Male": 1158
+    },
+    "55": {
+        "nongender": 922,
+        "Female": 195,
+        "Male": 564
+    },
+    "56": {
+        "nongender": 2032,
+        "Female": 661,
+        "Male": 2846
+    },
+    "57": {
+        "nongender": 1230,
+        "Female": 415,
+        "Male": 1060
+    },
+    "58": {
+        "nongender": 848,
+        "Female": 525,
+        "Male": 2072
+    },
+    "59": {
+        "nongender": 4574,
+        "Female": 1128,
+        "Male": 2935
+    },
+    "60": {
+        "nongender": 1792,
+        "Female": 572,
+        "Male": 1884
+    },
+    "61": {
+        "nongender": 1269,
+        "Female": 468,
+        "Male": 1132
+    },
+    "62": {
+        "nongender": 3179,
+        "Female": 118,
+        "Male": 581
+    },
+    "66": {
+        "nongender": 1344,
+        "Female": 1135,
+        "Male": 3502
+    },
+    "67": {
+        "nongender": 2711,
+        "Female": 794,
+        "Male": 2573
+    },
+    "68": {
+        "nongender": 564,
+        "Female": 215,
+        "Male": 1284
+    },
+    "69": {
+        "nongender": 2905,
+        "Female": 734,
+        "Male": 2524
+    },
+    "71": {
+        "nongender": 884,
+        "Female": 311,
+        "Male": 1722
+    },
+    "72": {
+        "nongender": 1275,
+        "Female": 509,
+        "Male": 1379
+    },
+    "73": {
+        "nongender": 1110,
+        "Female": 445,
+        "Male": 2230
+    },
+    "74": {
+        "nongender": 1739,
+        "Female": 721,
+        "Male": 3092
+    },
+    "75": {
+        "nongender": 2062,
+        "Female": 963,
+        "Male": 7089
+    },
+    "76": {
+        "nongender": 13604,
+        "Female": 500,
+        "Male": 1353
+    },
+    "77": {
+        "nongender": 1736,
+        "Female": 1209,
+        "Male": 5197
+    },
+    "80": {
+        "nongender": 1166,
+        "Female": 497,
+        "Male": 2859
+    },
+    "81": {
+        "nongender": 2373,
+        "Female": 1141,
+        "Male": 4481
+    },
+    "84": {
+        "nongender": 641,
+        "Female": 257,
+        "Male": 1229
+    },
+    "85": {
+        "nongender": 11414,
+        "Female": 679,
+        "Male": 2249
+    },
+    "86": {
+        "nongender": 731,
+        "Female": 412,
+        "Male": 864
+    },
+    "87": {
+        "nongender": 1078,
+        "Female": 359,
+        "Male": 1015
+    },
+    "88": {
+        "nongender": 788,
+        "Female": 372,
+        "Male": 1726
+    },
+    "90": {
+        "nongender": 14882,
+        "Female": 705,
+        "Male": 2808
+    },
+    "91": {
+        "nongender": 1672,
+        "Female": 1439,
+        "Male": 10787
+    },
+    "92": {
+        "nongender": 456,
+        "Female": 224,
+        "Male": 852
+    },
+    "93": {
+        "nongender": 1079,
+        "Female": 395,
+        "Male": 1194
+    },
+    "94": {
+        "nongender": 3808,
+        "Female": 707,
+        "Male": 1839
+    },
+    "97": {
+        "nongender": 11720,
+        "Female": 491,
+        "Male": 1370
+    },
+    "98": {
+        "nongender": 740,
+        "Female": 528,
+        "Male": 2961
+    },
+    "99": {
+        "nongender": 5082,
+        "Female": 498,
+        "Male": 1376
+    },
+    "100": {
+        "nongender": 1680,
+        "Female": 991,
+        "Male": 3880
+    },
+    "106": {
+        "nongender": 1242,
+        "Female": 253,
+        "Male": 1024
+    },
+    "108": {
+        "nongender": 585,
+        "Female": 314,
+        "Male": 1198
+    },
+    "109": {
+        "nongender": 394,
+        "Female": 236,
+        "Male": 870
+    },
+    "110": {
+        "nongender": 2496,
+        "Female": 979,
+        "Male": 3117
+    },
+    "111": {
+        "nongender": 514,
+        "Female": 196,
+        "Male": 1345
+    },
+    "112": {
+        "nongender": 1015,
+        "Female": 371,
+        "Male": 1444
+    },
+    "113": {
+        "nongender": 493,
+        "Female": 350,
+        "Male": 829
+    },
+    "114": {
+        "nongender": 1970,
+        "Female": 278,
+        "Male": 1230
+    },
+    "115": {
+        "nongender": 1555,
+        "Female": 441,
+        "Male": 1670
+    },
+    "116": {
+        "nongender": 480,
+        "Female": 156,
+        "Male": 576
+    },
+    "117": {
+        "nongender": 828,
+        "Female": 348,
+        "Male": 1354
+    },
+    "118": {
+        "nongender": 1365,
+        "Female": 342,
+        "Male": 1143
+    },
+    "119": {
+        "nongender": 348,
+        "Female": 95,
+        "Male": 470
+    },
+    "120": {
+        "nongender": 872,
+        "Female": 165,
+        "Male": 420
+    },
+    "121": {
+        "nongender": 361,
+        "Female": 80,
+        "Male": 358
+    },
+    "122": {
+        "nongender": 311,
+        "Female": 189,
+        "Male": 459
+    },
+    "123": {
+        "nongender": 1478,
+        "Female": 339,
+        "Male": 1162
+    },
+    "124": {
+        "nongender": 186,
+        "Female": 64,
+        "Male": 151
+    },
+    "126": {
+        "nongender": 5087,
+        "Female": 465,
+        "Male": 1574
+    },
+    "127": {
+        "nongender": 119,
+        "Female": 57,
+        "Male": 166
+    },
+    "128": {
+        "nongender": 1129,
+        "Female": 466,
+        "Male": 1297
+    },
+    "129": {
+        "nongender": 410,
+        "Female": 176,
+        "Male": 487
+    },
+    "130": {
+        "nongender": 1170,
+        "Female": 467,
+        "Male": 1400
+    },
+    "131": {
+        "nongender": 197,
+        "Female": 104,
+        "Male": 361
+    },
+    "132": {
+        "nongender": 95,
+        "Female": 17,
+        "Male": 66
+    },
+    "134": {
+        "nongender": 898,
+        "Female": 606,
+        "Male": 2182
+    },
+    "135": {
+        "nongender": 289,
+        "Female": 38,
+        "Male": 222
+    },
+    "136": {
+        "nongender": 92,
+        "Female": 80,
+        "Male": 139
+    },
+    "137": {
+        "nongender": 364,
+        "Female": 304,
+        "Male": 763
+    },
+    "138": {
+        "nongender": 428,
+        "Female": 157,
+        "Male": 733
+    },
+    "140": {
+        "nongender": 2191,
+        "Female": 744,
+        "Male": 2422
+    },
+    "141": {
+        "nongender": 2855,
+        "Female": 638,
+        "Male": 1365
+    },
+    "143": {
+        "nongender": 2280,
+        "Female": 644,
+        "Male": 1172
+    },
+    "144": {
+        "nongender": 1656,
+        "Female": 453,
+        "Male": 1118
+    },
+    "146": {
+        "nongender": 298,
+        "Female": 67,
+        "Male": 696
+    },
+    "147": {
+        "nongender": 436,
+        "Female": 56,
+        "Male": 122
+    },
+    "148": {
+        "nongender": 213,
+        "Female": 57,
+        "Male": 315
+    },
+    "149": {
+        "nongender": 386,
+        "Female": 36,
+        "Male": 229
+    },
+    "150": {
+        "nongender": 2848,
+        "Female": 167,
+        "Male": 447
+    },
+    "152": {
+        "nongender": 675,
+        "Female": 271,
+        "Male": 1067
+    },
+    "153": {
+        "nongender": 1155,
+        "Female": 489,
+        "Male": 1581
+    },
+    "154": {
+        "nongender": 974,
+        "Female": 202,
+        "Male": 744
+    },
+    "156": {
+        "nongender": 1539,
+        "Female": 397,
+        "Male": 1419
+    },
+    "157": {
+        "nongender": 3085,
+        "Female": 400,
+        "Male": 1211
+    },
+    "158": {
+        "nongender": 681,
+        "Female": 196,
+        "Male": 671
+    },
+    "159": {
+        "nongender": 180,
+        "Female": 105,
+        "Male": 194
+    },
+    "160": {
+        "nongender": 398,
+        "Female": 96,
+        "Male": 237
+    },
+    "162": {
+        "nongender": 616,
+        "Female": 197,
+        "Male": 592
+    },
+    "163": {
+        "nongender": 301,
+        "Female": 98,
+        "Male": 385
+    },
+    "164": {
+        "nongender": 1035,
+        "Female": 494,
+        "Male": 2422
+    },
+    "165": {
+        "nongender": 1587,
+        "Female": 278,
+        "Male": 638
+    },
+    "166": {
+        "nongender": 483,
+        "Female": 164,
+        "Male": 470
+    },
+    "167": {
+        "nongender": 70,
+        "Female": 10,
+        "Male": 48
+    },
+    "168": {
+        "nongender": 1252,
+        "Female": 421,
+        "Male": 1337
+    },
+    "169": {
+        "nongender": 415,
+        "Female": 147,
+        "Male": 637
+    },
+    "170": {
+        "nongender": 241,
+        "Female": 89,
+        "Male": 380
+    },
+    "171": {
+        "nongender": 110,
+        "Female": 8,
+        "Male": 93
+    },
+    "173": {
+        "nongender": 3083,
+        "Female": 674,
+        "Male": 1758
+    },
+    "174": {
+        "nongender": 1556,
+        "Female": 826,
+        "Male": 6626
+    },
+    "175": {
+        "nongender": 707,
+        "Female": 378,
+        "Male": 1145
+    },
+    "176": {
+        "nongender": 2861,
+        "Female": 760,
+        "Male": 2443
+    },
+    "177": {
+        "nongender": 7527,
+        "Female": 527,
+        "Male": 1517
+    },
+    "178": {
+        "nongender": 596,
+        "Female": 119,
+        "Male": 436
+    },
+    "179": {
+        "nongender": 341,
+        "Female": 99,
+        "Male": 287
+    },
+    "181": {
+        "nongender": 2383,
+        "Female": 1041,
+        "Male": 3313
+    },
+    "183": {
+        "nongender": 744,
+        "Female": 337,
+        "Male": 859
+    },
+    "184": {
+        "nongender": 351,
+        "Female": 62,
+        "Male": 237
+    },
+    "185": {
+        "nongender": 387,
+        "Female": 113,
+        "Male": 256
+    },
+    "186": {
+        "nongender": 521,
+        "Female": 266,
+        "Male": 866
+    },
+    "188": {
+        "nongender": 602,
+        "Female": 145,
+        "Male": 681
+    },
+    "190": {
+        "nongender": 686,
+        "Female": 326,
+        "Male": 816
+    },
+    "191": {
+        "nongender": 671,
+        "Female": 334,
+        "Male": 1841
+    },
+    "192": {
+        "nongender": 997,
+        "Female": 669,
+        "Male": 4343
+    },
+    "193": {
+        "nongender": 123,
+        "Female": 8,
+        "Male": 43
+    },
+    "194": {
+        "nongender": 2015,
+        "Female": 247,
+        "Male": 1213
+    },
+    "195": {
+        "nongender": 1882,
+        "Female": 456,
+        "Male": 2399
+    },
+    "196": {
+        "nongender": 1513,
+        "Female": 249,
+        "Male": 1365
+    },
+    "197": {
+        "nongender": 896,
+        "Female": 230,
+        "Male": 1134
+    },
+    "198": {
+        "nongender": 956,
+        "Female": 413,
+        "Male": 1842
+    },
+    "199": {
+        "nongender": 3024,
+        "Female": 646,
+        "Male": 2359
+    },
+    "200": {
+        "nongender": 163,
+        "Female": 21,
+        "Male": 23
+    },
+    "201": {
+        "nongender": 93,
+        "Female": 23,
+        "Male": 21
+    },
+    "202": {
+        "nongender": 236,
+        "Female": 109,
+        "Male": 286
+    },
+    "203": {
+        "nongender": 130,
+        "Female": 47,
+        "Male": 65
+    },
+    "204": {
+        "nongender": 154,
+        "Female": 15,
+        "Male": 125
+    },
+    "205": {
+        "nongender": 208,
+        "Female": 97,
+        "Male": 352
+    },
+    "206": {
+        "nongender": 304,
+        "Female": 78,
+        "Male": 374
+    },
+    "207": {
+        "nongender": 165,
+        "Female": 75,
+        "Male": 201
+    },
+    "208": {
+        "nongender": 70,
+        "Female": 4,
+        "Male": 91
+    },
+    "209": {
+        "nongender": 104,
+        "Female": 78,
+        "Male": 163
+    },
+    "210": {
+        "nongender": 1044,
+        "Female": 492,
+        "Male": 1275
+    },
+    "211": {
+        "nongender": 2153,
+        "Female": 695,
+        "Male": 2104
+    },
+    "212": {
+        "nongender": 822,
+        "Female": 226,
+        "Male": 1570
+    },
+    "213": {
+        "nongender": 308,
+        "Female": 105,
+        "Male": 264
+    },
+    "214": {
+        "nongender": 391,
+        "Female": 341,
+        "Male": 528
+    },
+    "215": {
+        "nongender": 357,
+        "Female": 84,
+        "Male": 153
+    },
+    "216": {
+        "nongender": 666,
+        "Female": 161,
+        "Male": 348
+    },
+    "217": {
+        "nongender": 228,
+        "Female": 108,
+        "Male": 1011
+    },
+    "218": {
+        "nongender": 178,
+        "Female": 41,
+        "Male": 90
+    },
+    "219": {
+        "nongender": 786,
+        "Female": 249,
+        "Male": 648
+    },
+    "220": {
+        "nongender": 2318,
+        "Female": 842,
+        "Male": 1793
+    },
+    "222": {
+        "nongender": 264,
+        "Female": 50,
+        "Male": 206
+    },
+    "223": {
+        "nongender": 697,
+        "Female": 394,
+        "Male": 632
+    },
+    "224": {
+        "nongender": 468,
+        "Female": 116,
+        "Male": 732
+    },
+    "225": {
+        "nongender": 680,
+        "Female": 354,
+        "Male": 609
+    },
+    "226": {
+        "nongender": 659,
+        "Female": 145,
+        "Male": 509
+    },
+    "227": {
+        "nongender": 835,
+        "Female": 343,
+        "Male": 967
+    },
+    "228": {
+        "nongender": 401,
+        "Female": 83,
+        "Male": 435
+    },
+    "229": {
+        "nongender": 884,
+        "Female": 442,
+        "Male": 779
+    },
+    "230": {
+        "nongender": 710,
+        "Female": 323,
+        "Male": 944
+    },
+    "231": {
+        "nongender": 1072,
+        "Female": 170,
+        "Male": 641
+    },
+    "232": {
+        "nongender": 1523,
+        "Female": 263,
+        "Male": 881
+    },
+    "233": {
+        "nongender": 574,
+        "Female": 193,
+        "Male": 884
+    },
+    "234": {
+        "nongender": 447,
+        "Female": 120,
+        "Male": 407
+    },
+    "236": {
+        "nongender": 270,
+        "Female": 70,
+        "Male": 282
+    },
+    "237": {
+        "nongender": 375,
+        "Female": 60,
+        "Male": 188
+    },
+    "238": {
+        "nongender": 289,
+        "Female": 126,
+        "Male": 405
+    },
+    "239": {
+        "nongender": 437,
+        "Female": 124,
+        "Male": 461
+    },
+    "240": {
+        "nongender": 825,
+        "Female": 175,
+        "Male": 1164
+    },
+    "241": {
+        "nongender": 296,
+        "Female": 260,
+        "Male": 1237
+    },
+    "242": {
+        "nongender": 406,
+        "Female": 118,
+        "Male": 509
+    },
+    "243": {
+        "nongender": 411,
+        "Female": 132,
+        "Male": 527
+    },
+    "244": {
+        "nongender": 332,
+        "Female": 221,
+        "Male": 505
+    },
+    "245": {
+        "nongender": 481,
+        "Female": 108,
+        "Male": 581
+    },
+    "246": {
+        "nongender": 171,
+        "Female": 77,
+        "Male": 241
+    },
+    "247": {
+        "nongender": 862,
+        "Female": 49,
+        "Male": 225
+    },
+    "248": {
+        "nongender": 406,
+        "Female": 69,
+        "Male": 347
+    },
+    "249": {
+        "nongender": 1843,
+        "Female": 198,
+        "Male": 439
+    },
+    "250": {
+        "nongender": 913,
+        "Female": 97,
+        "Male": 331
+    },
+    "251": {
+        "nongender": 670,
+        "Female": 110,
+        "Male": 301
+    },
+    "252": {
+        "nongender": 448,
+        "Female": 115,
+        "Male": 278
+    },
+    "253": {
+        "nongender": 196,
+        "Female": 47,
+        "Male": 268
+    },
+    "254": {
+        "nongender": 571,
+        "Female": 174,
+        "Male": 737
+    },
+    "255": {
+        "nongender": 2254,
+        "Female": 438,
+        "Male": 1179
+    },
+    "256": {
+        "nongender": 358,
+        "Female": 78,
+        "Male": 316
+    },
+    "257": {
+        "nongender": 255,
+        "Female": 165,
+        "Male": 402
+    },
+    "258": {
+        "nongender": 253,
+        "Female": 106,
+        "Male": 315
+    },
+    "259": {
+        "nongender": 174,
+        "Female": 105,
+        "Male": 291
+    },
+    "260": {
+        "nongender": 420,
+        "Female": 148,
+        "Male": 551
+    },
+    "261": {
+        "nongender": 168,
+        "Female": 254,
+        "Male": 651
+    },
+    "262": {
+        "nongender": 70,
+        "Female": 4,
+        "Male": 20
+    },
+    "263": {
+        "nongender": 114,
+        "Female": 16,
+        "Male": 126
+    },
+    "264": {
+        "nongender": 467,
+        "Female": 122,
+        "Male": 736
+    },
+    "265": {
+        "nongender": 206,
+        "Female": 20,
+        "Male": 33
+    },
+    "267": {
+        "nongender": 214,
+        "Female": 37,
+        "Male": 48
+    },
+    "268": {
+        "nongender": 2342,
+        "Female": 179,
+        "Male": 563
+    },
+    "271": {
+        "nongender": 29,
+        "Female": 4,
+        "Male": 25
+    },
+    "272": {
+        "nongender": 63,
+        "Female": 31,
+        "Male": 139
+    },
+    "273": {
+        "nongender": 566,
+        "Female": 220,
+        "Male": 761
+    },
+    "274": {
+        "nongender": 68,
+        "Female": 72,
+        "Male": 228
+    },
+    "275": {
+        "nongender": 39,
+        "Female": 84,
+        "Male": 62
+    },
+    "276": {
+        "nongender": 159,
+        "Female": 109,
+        "Male": 250
+    },
+    "277": {
+        "nongender": 154,
+        "Female": 45,
+        "Male": 194
+    },
+    "278": {
+        "nongender": 96,
+        "Female": 25,
+        "Male": 42
+    },
+    "279": {
+        "nongender": 834,
+        "Female": 58,
+        "Male": 207
+    },
+    "280": {
+        "nongender": 159,
+        "Female": 37,
+        "Male": 94
+    },
+    "281": {
+        "nongender": 33,
+        "Female": 2,
+        "Male": 16
+    },
+    "282": {
+        "nongender": 170,
+        "Female": 100,
+        "Male": 337
+    },
+    "283": {
+        "nongender": 540,
+        "Female": 289,
+        "Male": 3050
+    },
+    "284": {
+        "nongender": 1755,
+        "Female": 211,
+        "Male": 945
+    },
+    "285": {
+        "nongender": 179,
+        "Female": 74,
+        "Male": 313
+    },
+    "286": {
+        "nongender": 308,
+        "Female": 181,
+        "Male": 1188
+    },
+    "287": {
+        "nongender": 520,
+        "Female": 385,
+        "Male": 2322
+    },
+    "288": {
+        "nongender": 216,
+        "Female": 76,
+        "Male": 440
+    },
+    "289": {
+        "nongender": 811,
+        "Female": 514,
+        "Male": 1311
+    },
+    "290": {
+        "nongender": 89,
+        "Female": 90,
+        "Male": 221
+    },
+    "291": {
+        "nongender": 621,
+        "Female": 257,
+        "Male": 762
+    },
+    "292": {
+        "nongender": 100,
+        "Female": 60,
+        "Male": 218
+    },
+    "293": {
+        "nongender": 141,
+        "Female": 53,
+        "Male": 283
+    },
+    "294": {
+        "nongender": 412,
+        "Female": 100,
+        "Male": 304
+    },
+    "295": {
+        "nongender": 236,
+        "Female": 89,
+        "Male": 208
+    },
+    "296": {
+        "nongender": 372,
+        "Female": 177,
+        "Male": 422
+    },
+    "297": {
+        "nongender": 62,
+        "Female": 88,
+        "Male": 162
+    },
+    "298": {
+        "nongender": 122,
+        "Female": 97,
+        "Male": 251
+    },
+    "299": {
+        "nongender": 349,
+        "Female": 127,
+        "Male": 505
+    },
+    "300": {
+        "nongender": 633,
+        "Female": 233,
+        "Male": 765
+    },
+    "301": {
+        "nongender": 494,
+        "Female": 281,
+        "Male": 814
+    },
+    "302": {
+        "nongender": 381,
+        "Female": 205,
+        "Male": 423
+    },
+    "303": {
+        "nongender": 437,
+        "Female": 211,
+        "Male": 522
+    },
+    "304": {
+        "nongender": 345,
+        "Female": 270,
+        "Male": 694
+    },
+    "305": {
+        "nongender": 234,
+        "Female": 108,
+        "Male": 242
+    },
+    "306": {
+        "nongender": 240,
+        "Female": 42,
+        "Male": 333
+    },
+    "307": {
+        "nongender": 236,
+        "Female": 111,
+        "Male": 472
+    },
+    "308": {
+        "nongender": 151,
+        "Female": 58,
+        "Male": 328
+    },
+    "309": {
+        "nongender": 204,
+        "Female": 80,
+        "Male": 179
+    },
+    "310": {
+        "nongender": 234,
+        "Female": 92,
+        "Male": 332
+    },
+    "311": {
+        "nongender": 484,
+        "Female": 116,
+        "Male": 388
+    },
+    "312": {
+        "nongender": 97,
+        "Female": 27,
+        "Male": 107
+    },
+    "313": {
+        "nongender": 944,
+        "Female": 314,
+        "Male": 727
+    },
+    "314": {
+        "nongender": 86,
+        "Female": 90,
+        "Male": 217
+    },
+    "315": {
+        "nongender": 67,
+        "Female": 17,
+        "Male": 216
+    },
+    "316": {
+        "nongender": 104,
+        "Female": 25,
+        "Male": 162
+    },
+    "317": {
+        "nongender": 95,
+        "Female": 146,
+        "Male": 292
+    },
+    "318": {
+        "nongender": 206,
+        "Female": 116,
+        "Male": 381
+    },
+    "319": {
+        "nongender": 300,
+        "Female": 54,
+        "Male": 227
+    },
+    "320": {
+        "nongender": 130,
+        "Female": 107,
+        "Male": 359
+    },
+    "321": {
+        "nongender": 713,
+        "Female": 291,
+        "Male": 913
+    },
+    "322": {
+        "nongender": 210,
+        "Female": 39,
+        "Male": 283
+    },
+    "323": {
+        "nongender": 177,
+        "Female": 34,
+        "Male": 149
+    },
+    "324": {
+        "nongender": 263,
+        "Female": 110,
+        "Male": 344
+    },
+    "325": {
+        "nongender": 294,
+        "Female": 159,
+        "Male": 393
+    },
+    "326": {
+        "nongender": 98,
+        "Female": 63,
+        "Male": 312
+    },
+    "327": {
+        "nongender": 308,
+        "Female": 190,
+        "Male": 534
+    },
+    "328": {
+        "nongender": 722,
+        "Female": 67,
+        "Male": 489
+    },
+    "329": {
+        "nongender": 447,
+        "Female": 113,
+        "Male": 383
+    },
+    "330": {
+        "nongender": 152,
+        "Female": 69,
+        "Male": 214
+    },
+    "331": {
+        "nongender": 162,
+        "Female": 111,
+        "Male": 450
+    },
+    "332": {
+        "nongender": 327,
+        "Female": 173,
+        "Male": 523
+    },
+    "333": {
+        "nongender": 157,
+        "Female": 139,
+        "Male": 267
+    },
+    "334": {
+        "nongender": 640,
+        "Female": 120,
+        "Male": 507
+    },
+    "335": {
+        "nongender": 2,
+        "Female": 3,
+        "Male": 28
+    },
+    "336": {
+        "nongender": 17,
+        "Female": 3,
+        "Male": 10
+    },
+    "337": {
+        "nongender": 365,
+        "Female": 143,
+        "Male": 488
+    },
+    "338": {
+        "nongender": 626,
+        "Female": 197,
+        "Male": 494
+    },
+    "339": {
+        "nongender": 55,
+        "Female": 28,
+        "Male": 139
+    },
+    "340": {
+        "nongender": 223,
+        "Female": 143,
+        "Male": 446
+    },
+    "341": {
+        "nongender": 991,
+        "Female": 35,
+        "Male": 107
+    },
+    "342": {
+        "nongender": 51,
+        "Female": 58,
+        "Male": 312
+    },
+    "343": {
+        "nongender": 29,
+        "Female": 52,
+        "Male": 139
+    },
+    "344": {
+        "nongender": 64,
+        "Female": 125,
+        "Male": 384
+    },
+    "345": {
+        "nongender": 102,
+        "Female": 58,
+        "Male": 116
+    },
+    "346": {
+        "nongender": 72,
+        "Female": 90,
+        "Male": 381
+    },
+    "347": {
+        "nongender": 47,
+        "Female": 35,
+        "Male": 144
+    },
+    "348": {
+        "nongender": 253,
+        "Female": 9,
+        "Male": 45
+    },
+    "349": {
+        "nongender": 137,
+        "Female": 70,
+        "Male": 222
+    },
+    "350": {
+        "nongender": 611,
+        "Female": 205,
+        "Male": 271
+    },
+    "351": {
+        "nongender": 103,
+        "Female": 31,
+        "Male": 146
+    }
+}

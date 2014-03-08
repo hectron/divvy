@@ -1,0 +1,22 @@
+{
+    "title": "user stats",
+    "description": "summary stats of user by month",
+    "Customer": {
+        "August": 110101,
+        "December": 4382,
+        "July": 51548,
+        "June": 3120,
+        "November": 18065,
+        "October": 64201,
+        "September": 105335
+    },
+    "Subscriber": {
+        "August": 60407,
+        "December": 40291,
+        "July": 23319,
+        "June": 885,
+        "November": 71945,
+        "October": 110494,
+        "September": 95695
+    }
+}
