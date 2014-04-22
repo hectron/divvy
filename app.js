@@ -11,7 +11,7 @@ try {
     /**
      * Basic Node configuration
      */
-    app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 90);
+    app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080);
     app.set('ip', process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1');
     app.set('views', path.join(__dirname, 'views'));
     app.set('view engine', 'jade');
@@ -54,3 +54,4 @@ try {
     console.log(e);
     console.log('Have you tried installed all the modules?');
 }
+
