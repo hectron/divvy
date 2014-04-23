@@ -5,11 +5,12 @@ Divvy.Models = Divvy.Models || {};
 (function () {
     'use strict';
 
-    Divvy.Models.Station = Backbone.Model.extend({
+    Divvy.Models.Stations = Backbone.Model.extend({
 
         url: '',
 
         initialize: function() {
+          this.stationUrl = "/station/#";
         },
 
         defaults: {

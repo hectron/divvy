@@ -15,4 +15,5 @@ window.Divvy = {
 $(document).ready(function () {
     'use strict';
     Divvy.init();
+    var station = new Divvy.Models.Stations();
 });
