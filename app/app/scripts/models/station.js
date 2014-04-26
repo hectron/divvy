@@ -10,7 +10,7 @@ Divvy.Models = Divvy.Models || {};
         url: '',
 
         initialize: function() {
-          this.stationUrl = "/station/#";
+          //data is stored into attributes
         },
 
         defaults: {
