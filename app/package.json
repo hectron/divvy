@@ -25,7 +25,8 @@
     "load-grunt-tasks": "~0.3.0",
     "q": "^1.0.1",
     "request": "^2.34.0",
-    "time-grunt": "~0.2.8"
+    "time-grunt": "~0.2.8",
+    "gulp": "^3.6.2"
   },
   "engines": {
     "node": ">=0.10.0"

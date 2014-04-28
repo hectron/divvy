@@ -1,9 +1,9 @@
 var express = require('express'),
     routes = require('./routes/stations'),
-    diivy = require('./diivy/diivy');
+    divvy = require('./divvy/divvy');
 var app = express();
 
-var data = diivy.requestJSONPromise();
+var data = divvy.requestJSONPromise();
 
 data.then(function(results){
   results = results.stationBeanList;
