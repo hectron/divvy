@@ -3,10 +3,15 @@ var express = require('express'),
     divvy = require('./divvy/divvy');
 var app = express();
 
-divvy.requestJSON();
+var data = divvy.requestJSONPromise();
+
+data.then(function(results){
+  results = results.stationBeanList;
+  console.log(results.length);
+});
 
 app.get('/stations', routes.findAll);
 app.get('/stations/:id', routes.findById);
 
-app.listen(3000);
+app.listen(8080);
 console.log('Listening on port 3000...');
