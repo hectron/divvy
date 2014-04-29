@@ -1,5 +1,10 @@
+var divvy = require('../divvy/divvy');
+
 exports.findAll = function(req, res) {
-  res.send([{name:'station1'}, {name:'station2'}, {name:'station3'}]);
+  var data = divvy.requestJSONPromise();
+  data.then(function(results){
+    res.send(results);
+  });
 };
 
 exports.findById = function(req, res) {
