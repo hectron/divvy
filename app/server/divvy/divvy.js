@@ -17,7 +17,7 @@ var requestJSON = function(deferred)
 
 };
 
-exports.requestJSONPromise = function()
+var requestJSONPromise = function()
 {
   var deferred = q.defer();
   if(divvyCache.needToMakeRequest()){
@@ -26,4 +26,36 @@ exports.requestJSONPromise = function()
     divvyCache.get(deferred);
   }
   return deferred.promise;
+}
+
+var massageStationList = function(data)
+{
+  return data && data.stationBeanList ? 
+    data.stationBeanList : data;
+}
+
+exports.allStations = function(req, res)
+{
+  var promise = requestJSONPromise();
+  promise.then(function(stationList){
+    return res.send(massageStationList(stationList));
+  });
+}
+
+exports.stationById = function(req, res)
+{
+  var data = requestJSONPromise(),
+    targetId = req.params.id,
+    stations = [], station;
+
+  data.then(function (results) {
+    stations = massageStationList(results);
+
+    for (var i = 0, size = stations.length; !station && i < size; i++) {
+      if (targetId == stations[i].id) {
+        station = stations[i];
+      }
+    }
+    return res.send(station);
+  });
 }
