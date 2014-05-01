@@ -1,5 +1,5 @@
 # [Divvy Data Challenge 2014](https://divvybikes.com/datachallenge)
-test
+testing
 This project is aimed to display a variety of statistics calculated from data gathered in 2013 by Divvy. For more information regarding the data challenge, please visit [Divvy's Data Challenge Page](https://divvybikes.com/datachallenge).
 
 ## Technology Used
