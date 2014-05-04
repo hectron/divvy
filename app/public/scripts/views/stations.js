@@ -7,7 +7,7 @@ Divvy.Views = Divvy.Views || {};
 
     Divvy.Views.Stations = Backbone.View.extend({
 
-        template: JST['app/scripts/templates/stations.ejs'],
+        template: 'app/scripts/templates/stations.ejs',
 
         tagName: 'div',
 
