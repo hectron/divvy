@@ -10,19 +10,17 @@ var $ = require('gulp-load-plugins')();
 var mocha = require('gulp-mocha');
 
 gulp.task('styles', function () {
-    return gulp.src('public/styles/main.scss')
-        .pipe($.rubySass({
-            style: 'expanded'
-        }))
+    return gulp.src('public/styles/main.css')
         .pipe($.autoprefixer('last 1 version'))
         .pipe(gulp.dest('.tmp/styles'))
         .pipe($.size());
 });
 
 gulp.task('scripts', function () {
-    return gulp.src('public/scripts/**/*.js')
+    return gulp.src(['public/scripts/**/*.js', '!public/scripts/vendor/*'])
         .pipe($.jshint())
         .pipe($.jshint.reporter($.jshintStylish))
+        .pipe(gulp.dest('.tmp/scripts'))
         .pipe($.size());
 });
 
@@ -55,14 +53,6 @@ gulp.task('images', function () {
         .pipe($.size());
 });
 
-gulp.task('fonts', function () {
-    return $.bowerFiles()
-        .pipe($.filter('**/*.{eot,svg,ttf,woff}'))
-        .pipe($.flatten())
-        .pipe(gulp.dest('dist/fonts'))
-        .pipe($.size());
-});
-
 gulp.task('mocha', function (){
   gulp.src('./test/*.js')
     .pipe(mocha({ reporter: 'spec' }));
@@ -74,7 +64,7 @@ gulp.task('clean', function () {
     return gulp.src(['.tmp', 'dist'], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['html', 'images', 'fonts']);
+gulp.task('build', ['html', 'images']);
 
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
