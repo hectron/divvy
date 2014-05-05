@@ -1,11 +1,10 @@
 'use strict';
 
 var LIVERELOAD_PORT = 35729,
-  SERVER_PORT = 9000;
+  SERVER_PORT = 8080;
 
 var gulp = require('gulp');
 
-// load plugins
 var $ = require('gulp-load-plugins')();
 var mocha = require('gulp-mocha');
 
@@ -77,16 +76,14 @@ gulp.task('connect', function () {
         .use(connect.static('public'))
         .use(connect.static('.tmp'))
         .use(connect.directory('public'));
-
-    require('http').createServer(app)
-        .listen(SERVER_PORT)
-        .on('listening', function () {
-            console.log('Started connect web server on http://localhost:' + SERVER_PORT);
-        });
 });
 
 gulp.task('serve', ['connect', 'styles'], function () {
-    require('opn')('http://localhost:' + SERVER_PORT);
+   require('gulp-nodemon')({ script: 'server/server.js', ext: 'html js', ignore: ['ignored.js'] })
+     .on('restart', function () {
+       console.log('restarted!')
+     });
+     require('opn')('http://localhost:' + SERVER_PORT);
 });
 
 gulp.task('watch', ['connect', 'serve'], function () {
