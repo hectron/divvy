@@ -14,11 +14,13 @@ window.Divvy = {
 $(document).ready(function () {
   'use strict';
   Divvy.init();
-  
+
   var map = new Divvy.Map();
   map.initialize();
   var stations = new Divvy.Collections.Stations(map.addStationsToMap);
 
+
+  var offset = 800;
   $(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {
       $('.rightrail').fadeIn(duration);

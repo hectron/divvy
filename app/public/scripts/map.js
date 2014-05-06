@@ -53,7 +53,6 @@ Divvy.Map = function(){
     });
 
     $('.back-to-top').click(function(event) {
-      var offset = 800;
       var duration = 500;
       event.preventDefault();
       $('html, body').animate({scrollTop: 0}, duration);
