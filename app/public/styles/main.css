@@ -1,14 +1,41 @@
 body {
-    background: #fafafa;
-    font-family: 'Open Sans', 'Hlevetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    color: #353535;
-    width: 100%;
+  background: #fafafa;
+  font-family: 'Open Sans', 'Hlevetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #353535;
+  width: 100%;
 }
 
 a {
-    text-decoration: underline;
-    cursor: auto;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+#map{
+  height:700px;
+  width:60%;
+  margin: 0 auto;
+}
+
+.rightrail {
+  position: fixed;
+  bottom: 2em;
+  right: 0px;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(235, 235, 235, 0.80);
+  font-size: 12px;
+  padding: 1em;
+  z-index: 999;
+  display: none;
+}
+
+.rightrail > ul{
+  list-style: none;
+}
+
+.back-to-top:hover {
+  background-color: rgba(135, 135, 135, 0.50);
 }
 
 .bigshot {
@@ -23,8 +50,8 @@ a {
   position: relative;
 }
 .hero-unit {
-    margin: 50px auto 0;
-    width: 450px;
+  margin: 50px auto 0;
+  width: 450px;
 }
 
 .btn {

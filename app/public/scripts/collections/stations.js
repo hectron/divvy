@@ -8,13 +8,20 @@ Divvy.Collections = Divvy.Collections || {};
     Divvy.Collections.Stations = Backbone.Collection.extend({
 
         model: Divvy.Models.Stations,
-        url: '/json/stations.json',
+        url: '/json/stations',
+
+
+        initialize: function(success, failure){
+          this.fetch({
+            success:success
+          });
+        },
 
         parse: function(response, options){
-          return response.stationBeanList;
+          return response;
         }
-        
-       /* sync: function(method, model, options) {
+
+ /*       sync: function(method, model, options) {
           var self = this;
           var params = _.extend({
             type: 'GET',
@@ -24,8 +31,8 @@ Divvy.Collections = Divvy.Collections || {};
           }, options);
 
           return $.ajax(params);
-        }*/
-
+        }
+*/
     });
 
 })();

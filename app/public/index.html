@@ -1,44 +1,70 @@
 <!doctype html>
 <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Divvy</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="bigshot">
-        <div class="hero-unit">
-          <h1>Divvy Heatmaps</h1>
-          <h2>Know where to get a bike</h2>
-          <h3>Avoid the wait. Intelligently find out where to hitch a ride
-            <br>based on historical usage and real-time data.</h3>
-          <a class="btn action-btn" href="javascript:void(0);">View Stations</a>
-        </div>
-      </header>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Divvy</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="styles/vendor/leaflet/leaflet.css">
+    <!-- endbuild -->
+    <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.css' rel='stylesheet' />
+    <!--[if lt IE 9]>
+      <link href='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.21.0/L.Control.Locate.ie.css' rel='stylesheet' />
+    <![endif]-->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="rightrail">
+      <ul class=rightrail-list>
+        <li class="rightrail-item">
+          <a href="javascript:void(0);" class="center-map">Center Map</a>
+        </li>
+        <li class="rightrail-item">
+          <a href="javascript:void(0);" class="heat-map">Heat Map It</a>
+        </li>
+        <li class="rightrail-item">
+          <a href="javascript:void(0);" class="back-to-top">Back to Top</a>
+        </li>
+      </ul>
+    </div>
 
-        <!-- build:js scripts/vendor.js -->
-        <script src="scripts/vendor/jquery-2.1.1.min.js"></script>
-        <script src="scripts/vendor/underscore-min.js"></script>
-        <script src="scripts/vendor/backbone-min.js"></script>
-        <!-- endbuild -->
+    <header class="bigshot">
+      <div class="hero-unit">
+        <h1>Divvy Heatmaps</h1>
+        <h2>Know where to get a bike</h2>
+        <h3>Avoid the wait. Intelligently find out where to hitch a ride
+        <br>based on historical usage and real-time data.</h3>
+        <a class="btn action-btn" href="javascript:void(0);">View Stations</a>
+      </div>
+    </header>
 
-        <!-- build:js(.tmp) scripts/main.js -->
-        <script src="scripts/routes.js"></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/models/station.js"></script>
-        <script src="scripts/collections/stations.js"></script>
-        <script src="scripts/views/stations.js"></script>
-        <!-- endbuild -->
-</body>
+    <div class="maparea">
+      <div id="map"></div>
+    </div>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="scripts/vendor/jquery-2.1.1.min.js"></script>
+    <script src="scripts/vendor/underscore-min.js"></script>
+    <script src="scripts/vendor/backbone-min.js"></script>
+    <script src="scripts/vendor/leaflet-src.js"></script>
+    <!-- endbuild -->
+    <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.24.0/L.Control.Locate.js'></script>
+
+    <!-- build:js(.tmp) scripts/main.js -->
+    <script src="scripts/routes.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/models/station.js"></script>
+    <script src="scripts/collections/stations.js"></script>
+    <script src="scripts/views/stations.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>

@@ -11,6 +11,7 @@ app_router.on('route:getStation', function (id) {
     console.log("Get station number " + id);
 });
 app_router.on('route:defaultRoute', function (actions) {
-    console.log(actions);
+  console.log("Enjoy your stay at the backbone default route");
 });
+
 Backbone.history.start();
