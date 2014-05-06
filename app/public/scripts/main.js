@@ -1,11 +1,10 @@
 /*global Divvy, $*/
 
-
 window.Divvy = {
     Models: {},
     Collections: {},
     Views: {},
-    Routers: {},
+    Routers: window.AppRouter,
     init: function () {
         'use strict';
         console.log('Hello from Backbone!');
