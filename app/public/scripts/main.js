@@ -68,6 +68,14 @@ $(document).ready(function () {
     }
   });
 
+  $('.center-map').click(function(event){
+    map.panTo(new L.LatLng(41.8847302006, -87.6277335692));
+  });
+
+  $('.heat-map').click(function(event){
+    alert('no');
+  });
+
   $('.back-to-top').click(function(event) {
     event.preventDefault();
     $('html, body').animate({scrollTop: 0}, duration);
