@@ -11,9 +11,9 @@ Divvy.Collections = Divvy.Collections || {};
         url: '/json/stations',
 
 
-        initialize: function(success, failure){
+        initialize: function(successCb, failure){
           this.fetch({
-            success:success
+            success:successCb
           });
         },
 
