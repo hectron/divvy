@@ -1,15 +1,16 @@
 var express = require('express'),
-stations = require('./routes/stations'),
+stations = require('./server/routes/stations'),
 path = require('path');
 
 var app = express();
 
-var public = path.resolve('public');
+var public = path.resolve('app/public');
 app.set('base', public);
 
 app.get('/ping', function() {
   res.send('pong');
 });
+
 app.get('/json/stations', stations.findAll);
 app.get('/stations/:id', stations.findById);
 app.get('/', function(req, res) {
