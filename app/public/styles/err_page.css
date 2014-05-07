@@ -126,3 +126,12 @@ input::-moz-focus-inner {
   text-transform: lowercase;
   font-size: 0.8em;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 300px;
+  }
+  .blup {
+    bottom: auto;
+  }
+}
