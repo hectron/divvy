@@ -1,4 +1,4 @@
-s/*global Divvy, Backbone*/
+/*global Divvy, Backbone*/
 
 Divvy.Models = Divvy.Models || {};
 
