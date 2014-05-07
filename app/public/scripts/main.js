@@ -21,6 +21,7 @@ $(document).ready(function () {
 
 
   var offset = 800;
+  var duration = 500;
   $(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {
       $('.rightrail').fadeIn(duration);
