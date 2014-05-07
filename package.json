@@ -1,0 +1,55 @@
+{
+  "name": "divvy",
+  "version": "0.0.0",
+  "description": "testing This project is aimed to display a variety of statistics calculated from data gathered in 2013 by Divvy. For more information regarding the data challenge, please visit [Divvy's Data Challenge Page](https://divvybikes.com/datachallenge).",
+  "main": "app.js",
+  "dependencies": {
+    "connect-livereload": "^0.3.2",
+    "connect": "^2.14.5",
+    "express": "^4.1.1",
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "^0.0.6",
+    "gulp-assets": "^0.1.0",
+    "gulp-bower-files": "^0.2.2",
+    "gulp-cache": "^0.1.3",
+    "gulp-clean": "^0.2.4",
+    "gulp-csso": "^0.2.8",
+    "gulp-filter": "^0.4.1",
+    "gulp-flatten": "^0.0.2",
+    "gulp-ignore": "^1.0.1",
+    "gulp-imagemin": "^0.2.0",
+    "gulp-jshint": "^1.5.5",
+    "gulp-livereload": "^1.3.1",
+    "gulp-mocha": "^0.4.1",
+    "gulp-load-plugins": "^0.5.0",
+    "gulp-nodemon": "^1.0.2",
+    "gulp-ruby-sass": "^0.4.3",
+    "gulp-size": "^0.3.1",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.14",
+    "gulp-useref": "^0.4.3",
+    "jshint-stylish": "^0.1.5",
+    "load-grunt-tasks": "^0.3.0",
+    "moment": "^2.6.0",
+    "opn": "^0.1.1",
+    "q": "^1.0.1",
+    "request": "^2.34.0",
+    "through2": "^0.4.1",
+    "time-grunt": "^0.2.10",
+    "wiredep": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hectron/divvy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectron/divvy/issues"
+  },
+  "homepage": "https://github.com/hectron/divvy"
+}
