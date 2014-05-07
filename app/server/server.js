@@ -1,6 +1,6 @@
 var express = require('express'),
-    stations = require('./routes/stations'),
-    path = require('path');
+stations = require('./routes/stations'),
+path = require('path');
 
 var app = express();
 
@@ -8,13 +8,13 @@ var public = path.resolve('public');
 app.set('base', public);
 
 app.get('/ping', function() {
-    res.send('pong');
+  res.send('pong');
 });
 app.get('/json/stations', stations.findAll);
 app.get('/stations/:id', stations.findById);
 app.get('/', function(req, res) {
-    var indexPath = path.resolve(public, 'index.html');
-    res.sendfile(indexPath);
+  var indexPath = path.resolve(public, 'index.html');
+  res.sendfile(indexPath);
 });
 
 app.use(express.static(public));
@@ -25,20 +25,19 @@ app.use(express.static(public));
 
 // any url not configured, send 404
 app.get('*', function(req, res, next) {
-    var err = new Error();
-    err.status = 404;
+  var err = new Error();
+  err.status = 404;
 
-    next(err);
+  next(err);
 });
 
 app.use(function(err, req, res, next) {
-    if (err.status !== 404)
-        return next();
+  if (err.status !== 404)
+    return next();
 
-    var errorPath = path.resolve(public, '404.html');
+  var errorPath = path.resolve(public, '404.html');
 
-    res.sendfile(errorPath, err);
+  res.sendfile(errorPath, err);
 });
-
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
 console.log('Listening on port 8080...');
