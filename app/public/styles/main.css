@@ -17,25 +17,36 @@ a {
   margin: 0 auto;
 }
 
-.rightrail {
+.rail {
   position: fixed;
   bottom: 2em;
-  right: 0px;
   text-decoration: none;
   color: #000000;
-  background-color: rgba(235, 235, 235, 0.80);
   font-size: 12px;
   padding: 1em;
   z-index: 999;
   display: none;
 }
 
+.rightrail{
+  right: 0px;
+}
+
+.leftrail{
+  left: 0px;
+}
+
 .rightrail > ul{
   list-style: none;
 }
 
-.back-to-top:hover {
-  background-color: rgba(135, 135, 135, 0.50);
+.rightrail > ul > li{
+  margin-bottom: 5px;
+}
+
+.rightrail > ul > li > a > img{
+  height: 25px;
+  width: 25px;
 }
 
 .bigshot {
@@ -52,6 +63,10 @@ a {
 .hero-unit {
   margin: 50px auto 0;
   width: 450px;
+}
+
+.maparea{
+  background-color: #23FFBC;
 }
 
 .btn {
