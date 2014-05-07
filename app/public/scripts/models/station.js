@@ -1,8 +1,8 @@
-/*global Divvy, Backbone*/
+s/*global Divvy, Backbone*/
 
 Divvy.Models = Divvy.Models || {};
 
-(function () {
+(function() {
     'use strict';
 
     Divvy.Models.Stations = Backbone.Model.extend({
@@ -10,20 +10,18 @@ Divvy.Models = Divvy.Models || {};
         url: '',
 
         initialize: function(obj) {
-          var mapWeight = [];
-          mapWeight.push(obj.latitude);
-          mapWeight.push(obj.longitude);
-          mapWeight.push(obj.availableBikes);
-          this.attributes.mapWeight = mapWeight;
+            var mapWeight = [];
+            mapWeight.push(obj.latitude);
+            mapWeight.push(obj.longitude);
+            mapWeight.push(obj.availableBikes);
+            this.attributes.mapWeight = mapWeight;
         },
 
-        defaults: {
-        },
+        defaults: {},
 
-        validate: function(attrs, options) {
-        },
+        validate: function(attrs, options) {},
 
-        parse: function(response, options)  {
+        parse: function(response, options) {
             return response;
         }
     });
