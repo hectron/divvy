@@ -1,19 +1,34 @@
 Divvy.Map = Divvy.Map || {};
 Divvy.Map = function(){
   var self = this;
+  var heatMapEnabled = false;
   this.map = {};
+  this.mapWeights = [];
 
   this.initialize = function(){
-    var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/westeezy.i61hfle6/{z}/{x}/{y}.png', {
+    self.mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/westeezy.i61hfle6/{z}/{x}/{y}.png', {
       attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
     });
-    self.map = L.map('map').addLayer(mapboxTiles).setView([41.8847302006, -87.6277335692], 14);
+    self.heatmap = new L.TileLayer.WebGLHeatMap({size: 1000, autoresize: true, opacity: 0.5}); 
+    self.map = L.map('map').addLayer(self.mapboxTiles).setView([41.8847302006, -87.6277335692], 14);
     L.control.locate({drawCircle:false}).addTo(self.map);
     setUpEventListeners();
   };
 
   this.instance = function(){
     return self.map;
+  };
+
+  this.addHeatMap = function(){
+    if(self.heatmap){
+      self.map.addLayer(self.heatmap);
+      heatMapEnabled = true;
+    }
+  };
+
+  this.removeHeatMap = function(){
+    self.map.removeLayer(self.heatmap);
+    heatMapEnabled = false;
   };
 
   this.addStationsToMap = function(collection, resp, xhr){
@@ -24,6 +39,11 @@ Divvy.Map = function(){
       coords.push(attrs.latitude)
       coords.push(attrs.longitude);
       self.createMapCircle(coords, message);
+      var lat = parseFloat(attrs.latitude);
+      var lng = parseFloat(attrs.longitude);
+      if (!(isNaN(lat) || isNaN(lng))) {
+        self.heatmap.addDataPoint(lat, lng, Math.abs(attrs.availableBikes - attrs.totalDocks));
+      }
     });
   };
 
@@ -49,7 +69,10 @@ Divvy.Map = function(){
     });
 
     $('.heat-map').click(function(event){
-      alert('no');
+      if(heatMapEnabled)
+        self.removeHeatMap();
+      else
+        self.addHeatMap();
     });
 
     $('.back-to-top').click(function(event) {

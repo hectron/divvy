@@ -18,8 +18,7 @@ $(document).ready(function () {
   var map = new Divvy.Map();
   map.initialize();
   var stations = new Divvy.Collections.Stations(map.addStationsToMap);
-
-
+  
   var offset = 800;
   var duration = 500;
   $(window).scroll(function() {
