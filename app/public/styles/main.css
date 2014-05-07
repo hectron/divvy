@@ -1,6 +1,6 @@
 body {
   background: #fafafa;
-  font-family: 'Open Sans', 'Hlevetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 100;
   color: #353535;
   width: 100%;
@@ -69,16 +69,16 @@ a {
   background-color: #1a1a1a !important;
 }
 
-h1 {
+.bigshot h1 {
   font-size: 4em;
   font-weight: 300;
   line-height: 100%;
 }
-h2 {
+.bigshot h2 {
   font-size: 1.2em;
   font-weight: 300;
 }
-h3 {
+.bigshot h3 {
   font-size: 0.9em;
   font-weight: 300;
 }
