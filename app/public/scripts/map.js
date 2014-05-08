@@ -86,6 +86,17 @@ Divvy.Map = function() {
     };
 
     var setUpEventListeners = function() {
+        $('.focus-map').click(function(event) {
+          event.preventDefault();
+          var duration = 500;
+
+          $('html,body').animate({
+            scrollTop: $('.maparea').offset().top
+          }, duration);
+
+          return false;
+        });
+
         $('.center-map').click(function(event) {
             self.map.panTo(new L.LatLng(41.8847302006, -87.6277335692));
             self.map.setZoom(14);
