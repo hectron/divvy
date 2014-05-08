@@ -41,5 +41,7 @@ app.use(function(err, req, res, next) {
   res.sendfile(errorPath, err);
 });
 
-app.listen(process.env.PORT || 8001);
-console.log('Listening on port 8080...');
+var port = process.env.PORT || 8001;
+app.listen(port);
+
+console.log('Listening on port: ' + port);
