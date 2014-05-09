@@ -1,5 +1,7 @@
 import os
+import multiprocessing
 import json
+import time
 import urlparse
 import urllib2
 import psycopg2
@@ -9,62 +11,77 @@ import psycopg2
 class Station:
     pass
 
-response = urllib2.urlopen('http://divvybikes.com/stations/json')
-data = json.load(response)
+def scrape():
+    ''' scrapes information from divvy and stores it in a table.'''
 
-# Divvy data is wrapped. Check out the fixture.json file for a snapshot.
-# Ex: { executionTime: @string, stationBeanList: @dict containing the stations}
+    response = urllib2.urlopen('http://divvybikes.com/stations/json')
+    data = json.load(response)
 
-stations = data['stationBeanList'] if data.has_key('stationBeanList') else []
-stations_as_objects = []
+    # Divvy data is wrapped. Check out the fixture.json file for a snapshot.
+    # Ex: { executionTime: @string, stationBeanList: @dict containing the stations}
 
-for s in stations:
-    station = Station()
+    stations = data['stationBeanList'] if data.has_key('stationBeanList') else []
+    stations_as_objects = []
 
-    # Set up the object. Very primative way of creating one.
-    # Refer to bit.ly/1nluXtq
-    station.id = s['id']
-    station.availableDocks = s['availableDocks']
-    station.statusKey = s['statusKey']
-    station.availableBikes = s['availableBikes']
+    for s in stations:
+        station = Station()
 
-    stations_as_objects.append(station)
+        # Set up the object. Very primative way of creating one.
+        # Refer to bit.ly/1nluXtq
+        station.id = s['id']
+        station.availableDocks = s['availableDocks']
+        station.statusKey = s['statusKey']
+        station.availableBikes = s['availableBikes']
 
-if len(stations_as_objects) > 0:
+        stations_as_objects.append(station)
 
-    # check if we're in Heroku
-    if os.environ['DATABASE_URL']:
-        urlparse.uses_netloc.append('postgres')
-        url = urlparse.urlparse(os.environ['DATABASE_URL'])
+    if len(stations_as_objects) > 0:
 
-        conn = psycopg2.connect(
-                database=url.path[1:],
-                user=url.username,
-                password=url.password,
-                host=url.hostname,
-                port=url.port
-        )
-    else:
-        conn = psycopg2.connect("dbname='divvy' user='hectorrios'")
+        # check if we're in Heroku
+        if os.environ['DATABASE_URL']:
+            urlparse.uses_netloc.append('postgres')
+            url = urlparse.urlparse(os.environ['DATABASE_URL'])
 
-    cur = conn.cursor()
+            conn = psycopg2.connect(
+                    database=url.path[1:],
+                    user=url.username,
+                    password=url.password,
+                    host=url.hostname,
+                    port=url.port
+            )
+        else:
+            conn = psycopg2.connect("dbname='divvy' user='hectorrios'")
 
-    query = 'CREATE TABLE IF NOT EXISTS monthly.station_history(id SERIAL PRIMARY KEY, station_id INT, available_docks INT, status_key INT, available_bikes INT, inserted TIMESTAMP DEFAULT current_timestamp);'
+        cur = conn.cursor()
 
-    try:
-        cur.execute(query)
+        query = 'CREATE TABLE IF NOT EXISTS monthly.station_history(id SERIAL PRIMARY KEY, station_id INT, available_docks INT, status_key INT, available_bikes INT, inserted TIMESTAMP DEFAULT current_timestamp);'
 
-        for station in stations_as_objects:
-            query = 'INSERT INTO monthly.station_history(station_id, available_docks, status_key, available_bikes) VALUES (%d, %d, %d, %d);' % (station.id, station.availableDocks, station.statusKey, station.availableBikes)
+        try:
             cur.execute(query)
 
-        print('Getting ready to save!')
-    except:
-        print('Error!')
-        conn.rollback()
+            for station in stations_as_objects:
+                query = 'INSERT INTO monthly.station_history(station_id, available_docks, status_key, available_bikes) VALUES (%d, %d, %d, %d);' % (station.id, station.availableDocks, station.statusKey, station.availableBikes)
+                cur.execute(query)
 
-    conn.commit()
-    cur.close()
-    conn.close()
+            print('Getting ready to save!')
+        except:
+            print('Error!')
+            conn.rollback()
+
+        conn.commit()
+        cur.close()
+        conn.close()
+# end of scrape
+
+# allow the scrapping to be done on a different thread
+scaper = multiprocessing.Process(target=scrape)
+scaper.start()
+
+# meanwhile the scrapping is done, we wait 60 seconds
+timeout = 60
+time.sleep(timeout)
+
+# this hits after the timeout, so kill the thread even if it's not done
+scaper.terminate()
 
 print 'Done.'
