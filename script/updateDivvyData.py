@@ -1,4 +1,5 @@
 import os
+import sys
 import multiprocessing
 import json
 import time
@@ -38,7 +39,7 @@ def scrape():
     if len(stations_as_objects) > 0:
 
         # check if we're in Heroku
-        if os.environ['DATABASE_URL']:
+        if os.environ.__contains__('DATABASE_URL'):
             urlparse.uses_netloc.append('postgres')
             url = urlparse.urlparse(os.environ['DATABASE_URL'])
 
@@ -50,14 +51,17 @@ def scrape():
                     port=url.port
             )
         else:
-            conn = psycopg2.connect("dbname='divvy' user='hectorrios'")
+            print("Connecting without HEROKU!")
+            conn = psycopg2.connect("dbname='divvydata' user='' password=''")
 
         cur = conn.cursor()
 
         query = 'CREATE TABLE IF NOT EXISTS monthly.station_history(id SERIAL PRIMARY KEY, station_id INT, available_docks INT, status_key INT, available_bikes INT, inserted TIMESTAMP DEFAULT current_timestamp);'
 
         try:
+            print("Executing query....")
             cur.execute(query)
+            print("Starting station query...")
 
             for station in stations_as_objects:
                 query = 'INSERT INTO monthly.station_history(station_id, available_docks, status_key, available_bikes) VALUES (%d, %d, %d, %d);' % (station.id, station.availableDocks, station.statusKey, station.availableBikes)
@@ -65,7 +69,7 @@ def scrape():
 
             print('Getting ready to save!')
         except:
-            print('Error!')
+            print('Error:', sys.exc_info()[0])
             conn.rollback()
 
         conn.commit()
